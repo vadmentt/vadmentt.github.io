@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music</title>
+    <script>
+        var playMusic = function() {
+            document.getElementById("music").play();
+        }
+        var stopMusic = function() {
+            document.getElementById("music").pause();
+        }
+    </script>
+</head>
+<body>
+    <audio controls>
+        <source src="mix.mp3" id="music" type="audio/mp3">
+    </audio>
+    <button onclick="playMusic();">Play</button>
+    <button onclick="stopMusic();">Stop</button>
+</body>
+</html>
