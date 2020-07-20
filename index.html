@@ -3,11 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Music</title>
+    <title>Game</title>
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
-    <audio controls loop>
+    <audio controls style="z-index: -10; position: absolute;" loop>
         <source src="mix.mp3" id="music" type="audio/mp3">
     </audio>
+    <div id="background"></div>
+    <div id="character"></div>
+    <script src="index.js"></script>
 </body>
 </html>
