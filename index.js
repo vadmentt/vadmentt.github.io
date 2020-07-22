@@ -38,6 +38,22 @@ document.body.onkeydown = function(e){
     if(e.keyCode == 65){
         right();
     }
+    if(e.keyCode == 87 && e.keyCode == 68){
+        up();
+        left();
+    }
+    if(e.keyCode == 87 && e.keyCode == 65){
+        up();
+        right();
+    }
+    if(e.keyCode == 83 && e.keyCode == 68) {
+        down();
+        left();
+    }
+    if(e.keyCode == 83 && e.keyCode == 65) {
+        down();
+        right();
+    }
 }
 
 
