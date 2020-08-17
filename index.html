@@ -1,17 +1,3293 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en-US" prefix="og: http://ogp.me/ns#" class=" csstransforms csstransforms3d csstransitions js csstransforms csstransforms3d csstransitions csstransforms csstransforms3d csstransitions js csstransforms csstransforms3d csstransitions"><head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script src="https://script.crazyegg.com/pages/versioned/common-scripts/11.1.68.js" type="text/javascript" async=""></script><script type="text/javascript" src="http://app.whoisvisiting.com/who.js"></script><script src="https://connect.facebook.net/en_US/sdk.js?hash=f128fc4fd9251f5d3033fe81358251df&amp;ua=modern_es6" async="" crossorigin="anonymous"></script><script id="facebook-jssdk" src="//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.5"></script><script type="text/javascript" src="https://app.whoisvisiting.com/who.js"></script><script src="https://script.crazyegg.com/pages/versioned/common-scripts/11.1.68.js" type="text/javascript" async=""></script><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-61121789-1"></script>
+    
+    <script src="https://cdn.adapex.io/hb/aaw.pianu.js" async=""></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-61121789-1');
+</script>
+
+
+    
+<meta name="ahrefs-site-verification" content="6cc4b8732dd5ecb703a4ddedf87ece9576db8c02cbe8c88e6659692c6cf17431">
+    <meta content="website" property="og:type">
+    <meta property="og:title" content="Detect My Keyboard">
+    <meta property="og:url" content="https://pianu.com/detect-my-keyboard">
+    <meta property="og:image" content="https://pianu.com/wp-content/uploads/2016/05/pianugraphic-min.png">		<meta property="og:url" content="https://pianu.com">
+    <meta property="og:description" content=" online, interactively.">
+    
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Game</title>
-    <link rel="stylesheet" href="index.css">
-</head>
-<body>
-    <audio controls style="z-index: -10; position: absolute;" loop>
-        <source src="mix.mp3" id="music" type="audio/mp3">
-    </audio>
-    <div id="background"></div>
-    <div id="character"></div>
-    <script src="index.js"></script>
-</body>
-</html>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="p:domain_verify" content="e07ff70459a8e0413b0dd9b676f811d0">
+    <title>
+        Detect My Keyboard - Pianu - The Online Piano That Teaches You How to Play		</title><link rel="stylesheet" href="https://pianu.com/wp-content/cache/min/1/4cacb0ea0d5dea5926f4cbf3d76e464a.css" data-minify="1">
+    
+    <link rel="shortcut icon" href="https://pianu.com/wp-content/uploads/2015/09/favicon-min.png">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:500,800&amp;display=swap" rel="stylesheet">
+
+
+<!-- homepage --> 
+           
+    <style>
+        html,
+    body,
+    div,
+    span,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    abbr,
+    address,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    samp,
+    small,
+    strong,
+    sub,
+    sup,
+    var,
+    b,
+    i,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    figcaption,
+    figure,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+      background: transparent;
+    }
+
+    * {
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      height: 100%;
+      -webkit-text-size-adjust: 100%;
+      color: #1f7548;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      background: #35d58e;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      line-height: 1;
+      font-weight: 800;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      font-size: 48px;
+      color: #fff;
+      padding: 15px;
+    }
+
+    h2 {
+      font-size: 24px;
+      color: #fff;
+    }
+
+    h3 {
+      font-size: 20px;
+      text-align: center;
+      text-transform: uppercase;
+      color: #fff;
+      margin: 20px;
+    }
+
+    h4,
+    h5 {
+      text-align: center;
+      color: #6d6e71;
+      font-weight: normal;
+      font-size: 40px;
+      margin-bottom: 0;
+      padding: 50px 50px 25px 50px;
+    }
+
+    h6 {
+      font-size: 25px;
+      text-transform: capitalize;
+      text-align: center;
+      clear: both;
+      margin: 25px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.4;
+      margin: 25px 0;
+    }
+
+    .home p {
+      margin: 25px auto;
+      max-width: 500px;
+      color: #fff;
+      font-size: 18px;
+    }
+
+    .home p span.bold {
+      text-transform: uppercase;
+      font-weight: 800;
+    }
+
+    a {
+      color: #e4fe1f;
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+    }
+
+    p a.button:hover {
+      text-decoration: none;
+    }
+
+    p a:hover {
+      text-decoration: underline;
+    }
+
+    .button,
+    input[type="submit"],
+    .wpcf7-submit,
+    .affiliate .wpam_terms_table .button-primary,
+    .mm-button,
+    .unlock-with-paypal {
+      display: inline-block;
+      font-size: 16px!important;
+      font-weight: 800!important;
+      text-transform: uppercase;
+      line-height: 1;
+      color: #fff;
+      border-radius: 40px;
+      text-align: center;
+      padding: 10px 40px!important;
+      cursor: pointer;
+      transition: color 100ms ease, background 100ms ease, box-shadow 100ms ease;
+      height: auto;
+      border: none!important;
+      -webkit-appearance: none;
+      font-family: 'Montserrat', sans-serif!important;
+      width: auto!important;
+      text-shadow: none!important;
+      box-shadow: none;
+    }
+.unlock-with-paypal {
+      display: none;
+}
+    .button:hover,
+    input[type="submit"]:hover,
+    .wpcf7-submit:hover,
+    .affiliate .wpam_terms_table .button-primary:hover,
+    .unlock-with-paypal:hover,
+    .sign-in-header:hover,
+    .google-login:hover,
+    .mm-button:hover {
+      box-shadow: 0px 10px 15px -5px rgba(0, 0, 0, .5)!important;
+      transition: box-shadow 200ms ease;
+    }
+
+    .button-wrap {
+      display: inline-block;
+      margin: 5px;
+      vertical-align: bottom;
+    }
+
+    .float-left {
+      display: block;
+      float: left;
+    }
+
+    .red-button,
+    .mm-button,
+    .pure-button-primary,
+    .affiliate input[type="submit"] {
+      background: #fd2261!important;
+      color: #fff!important;
+    }
+
+    .red-button:hover {
+      background-color: #fe5082;
+    }
+
+    .orange-button {
+      background: #f3c400;
+      color: #fff;
+    }
+
+    .orange-button:hover {
+      background-color: #faca03;
+    }
+
+    .yellow-button,
+    #wpua-upload-existing,
+    #wpua-add-existing,
+    .button-primary {
+  background: #e4fe1f;
+  color: #242424!important;
+    }
+
+    .yellow-button:hover {
+      color: #738e11;
+      background: #ebff53;
+    }
+
+    .green-button {
+      background: #35d58e;
+      color: #fff;
+      border-radius: 4px;
+      margin: 0 10px;
+    }
+
+    .blue-button {
+      background: #28bcdd;
+      color: #fff!important;
+    }
+
+    .blue-button:hover {
+      background: #2ccbef;
+    }
+        
+        /*----------------ADDED CUSTOMIZED-----*/
+    
+.folk .theme-color {
+background: #121212;
+}
+
+.rhythm-and-blues .theme-color {
+background: #053d9e;
+}
+
+.rock .theme-color {
+background: #057d02;
+}
+
+.jazz .theme-color {
+background: #910f03;
+}
+
+.soul .theme-color {
+background: #920596;
+}
+
+.electronic .theme-color {
+background: #9e4533;
+}
+
+.funk .theme-color {
+background: #8f089c;
+}
+
+.gospel .theme-color {
+background: #07f586;
+}
+
+.hip-hop .theme-color {
+background: #e32222;
+}
+
+.rap .theme-color {
+background: #db622a;
+}	
+
+    /*------------ HEADER ---------------------*/
+
+    #header {
+      width: 100%;
+      max-width: 100vw;
+      top: 0;
+      position: fixed;
+      z-index: 11;
+      height: 50px;
+      background: transparent;
+      padding-left: 15px;
+    }
+
+    .page-template-academy-lesson #header,
+    .page-template-names-of-the-keys-new #header {
+      position: absolute;
+    }
+
+    .logo {
+      width: 90px;
+      display: inline-block;
+    }
+
+    .logo img {
+      height: auto;
+      width: 100%;
+    }
+
+    .sign-in-header {
+      color: #fff!important;
+      background: #2bc3e5;
+      font-size: 16px;
+      line-height: 1;
+      padding: 5px 15px;
+      text-transform: uppercase;
+      border-radius: 20px;
+      font-weight: 800;
+      transition: background 100ms ease-out;
+    }
+
+    .sign-in-header:hover {
+      background: #2ccbef;
+    }
+
+    .my-account {
+      z-index: 6;
+      padding-right: 25px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      display: flex;
+      align-items: center;
+      height: 50px;
+    }
+
+    .my-account .name {
+      text-transform: capitalize;
+      color: #fff;
+      margin-right: 5px;
+    }
+
+    .my-account .name:hover {
+      text-decoration: underline;
+    }
+
+    .my-account .profile-links {
+      position: absolute;
+      display: none;
+      background: #35d58e;
+      padding: 10px 25px 10px;
+      width: 210px;
+      top: 50px;
+      right: 0px;
+      left: auto;
+      z-index: 1;
+      border-bottom-left-radius: 6px;
+      box-shadow: 0px 10px 8px rgba(0, 0, 0, .1);
+    }
+
+    .single .profile-links {
+      display: none!important;
+    }
+
+    .my-account .profile-links .fa-cog {
+      vertical-align: middle;
+      font-size: 20px;
+    }
+
+    .my-account .profile-links p {
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    .my-account .profile-links a {
+      color: #e4fe1f;
+      font-size: 16px;
+      white-space: nowrap;
+      text-transform: capitalize;
+    }
+
+    #account .circle img {
+      width: 100%;
+      height: 100%;
+      border-radius: 100px;
+    }
+
+    .circle {
+      display: inline-block;
+      height: 40px;
+      width: 40px;
+      background: #fff;
+      background-size: cover;
+      vertical-align: middle;
+      border-radius: 100px;
+    }
+
+    /*------------ MAIN NAVIGATION ------------*/
+
+    .menu-main-nav-container {
+      display: flex;
+      align-items: center;
+      height: 50px;
+    }
+
+    .menu-main-nav-container ul {
+      list-style-type: none;
+      z-index: 5;
+      margin: 0;
+    }
+
+    .menu-main-nav-container ul li {
+      padding: 0px 10px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    .menu-main-nav-container ul li a {
+      display: inline-block;
+      font-size: 16px;
+      line-height: 1;
+      color: #fff;
+      white-space: nowrap;
+      vertical-align: middle;
+      text-transform: capitalize;
+    }
+
+    .menu-main-nav-container ul li a svg {
+      opacity: 0;
+      width: auto;
+      height: 20px;
+      transition: opacity 200ms ease;
+      vertical-align: middle;
+    }
+
+    .menu-main-nav-container ul li a:hover {
+      color: #e4fe1f;
+    }
+
+    .menu-main-nav-container ul li a:hover svg {
+      opacity: 1;
+    }
+
+    .menu-main-nav-container ul li a:hover svg g {
+      fill: #e4fe1f;
+    }
+
+    .subscribe-star {
+      width: 25px;
+      height: 35px;
+      vertical-align: middle;
+      margin: 0 5px;
+    }
+
+    #account .subscribe-star {
+      margin: 0;
+      width: 16px;
+      height: auto;
+      padding-bottom: 3px;
+    }
+
+    .subscribe-star g {
+      fill: #fff;
+    }
+
+    .main-unlock-callout {
+      position: relative;
+      width: 90%;
+      text-align: center;
+      background: #000;
+      height: 300px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+      margin: 0 auto;
+      box-shadow: 0px 20px 20px rgba(0, 0, 0, .4);
+      transition: box-shadow 200ms ease;
+      display: none;
+      margin-bottom: -150px;
+      margin-top: -150px;
+      z-index: 1;
+    }
+
+    .main-unlock-callout h3 {
+      padding: 0 15px;
+  margin: 0;
+    }
+
+    .main-unlock-callout::before {
+      content: '';
+      position: absolute;
+      background: url(https://pianu.com/wp-content/themes/pianu/img/Piano-Fingers.jpg) center center no-repeat;
+      background-size: cover;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      border-radius: 10px;
+      opacity: .7;
+    }
+
+    .page-template-new-pianu-academy .main-unlock-callout,
+    .page-template-new-select-a-song .main-unlock-callout,
+    .page-template-new-account-page .main-unlock-callout,
+    .page-template-homepage .main-unlock-callout,
+    .post-type-archive-blog .main-unlock-callout,
+    .page-id-64 .main-unlock-callout {
+      display: flex;
+    }
+.page-id-64 .entry-content {
+    padding-bottom: 150px;
+}
+    .page-template-new-pianu-academy footer,
+    .page-template-new-select-a-song footer,
+    .page-template-new-account-page footer,
+    .page-template-homepage footer,
+    .post-type-archive-blog footer,
+    .page-id-64 footer {
+      padding: 250px 10px 75px;
+    }
+
+    .main-unlock-callout .button {
+      color: #fff;
+      background: #30bf79;
+      border-radius: 30px;
+      font-weight: 800;
+      font-size: 16px;
+      padding: 10px 25px;
+      margin-top: 20px;
+    }
+
+    .main-unlock-callout:hover {
+      box-shadow: 0px 23px 25px rgba(0, 0, 0, .45);
+    }
+
+    .main-unlock-callout:hover .button {
+      background: #35d58e;
+    }
+
+    .entry-content {
+      min-height: 100vh;
+      margin-top: 90px;
+    }
+
+    .page-id-1769 .entry-content {
+      margin-top: 0;
+    }
+
+    footer {
+      clear: both;
+      height: auto;
+      background: #30bf79;
+      padding: 75px 10px 75px;
+      text-align: left;
+      position: relative;
+    }
+
+    footer:after {
+      background: linear-gradient(to right, #fd2360 20%, #ffd41b 20%, #ffd41b 40%, #e3fd1f 40%, #e3fd1f 60%, #33e2f7 60%, #33e2f7 80%, #8270d5 80%);
+      position: absolute;
+      content: '';
+      height: 8px;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+
+    footer nav,
+    footer nav .breaks,
+    #copyright,
+    .social-container {
+      display: inline-block;
+      width: 30%;
+      vertical-align: top;
+      padding: 25px;
+    }
+
+    .social-container .fa {
+      font-size: 30px!important;
+    }
+
+    footer nav {
+      text-align: left;
+      width: 45%;
+    }
+
+    footer nav .breaks {
+      margin-left: 50px;
+      padding: 0;
+    }
+
+    footer nav ul {
+      list-style: none;
+    }
+
+    footer nav ul li {
+      min-width: 150px;
+      text-align: left;
+    }
+
+    footer nav ul li a {
+      padding-bottom: 15px;
+      display: inline-block;
+      font-size: 17px;
+      line-height: 1;
+      color: #fff;
+      white-space: nowrap;
+    }
+
+    footer .osmd {
+      padding: 0 75px;
+    }
+
+    footer .osmd a {
+      color: #fff;
+    }
+
+    #copyright {
+      text-align: left;
+      color: #fff;
+      padding: 50px 75px;
+      line-height: 1;
+    }
+
+    #copyright span {
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .social-container a {
+      font-size: 25px;
+      line-height: 1;
+      padding: 0 15px;
+      color: #fff;
+      display: inline-block;
+    }
+
+    .social-container a:hover,
+    footer .osmd a:hover,
+    footer nav ul li a:hover {
+      color: #e4fe1f;
+    }
+
+    /*----- BADGES -----*/
+
+    .badge svg {
+      width: 100%;
+      height: 100%;
+      padding: 5px;
+    }
+
+    /*----- SONGS --------*/
+
+    .theme-color {
+      position: absolute;
+      left: 10px;
+      top: 0;
+      padding: 5px 5px;
+      border-radius: 0 0 5px 5px;
+      z-index: 2;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+    }
+
+    .song {
+      width: 175px;
+      max-width: 45%;
+      height: 175px;
+      margin: 20px 5px;
+      display: inline-block;
+      text-align: center;
+      border-radius: 4px;
+      cursor: pointer;
+      vertical-align: top;
+      position: relative;
+      transition: box-shadow 300ms ease;
+    }
+
+    .song:hover {
+      box-shadow: 0px 17px 20px -3px rgba(0, 0, 0, .5);
+    }
+
+    .theme-color svg {
+      height: 10px;
+      width: auto;
+    }
+
+    .themes .theme-color {
+      background: #ffd31a;
+    }
+
+    .pop .theme-color {
+      background: #fc2160;
+    }
+
+    .kids .theme-color {
+      background: #e4fe1f;
+    }
+
+    .classical .theme-color {
+      background: #33e1f7;
+    }
+
+    .chords .theme-color {}
+
+    .song-thumbnail {
+      width: 100%;
+      height: 100%;
+      border-radius: 5px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .song-thumbnail::after {
+      content: '';
+      background: -webkit-linear-gradient(top, rgba(36, 36, 36, 0), rgba(36, 36, 36, .5));
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      border-radius: 5px;
+    }
+
+    .song:hover .song-thumbnail::after {
+      background: -webkit-linear-gradient(top, rgba(36, 36, 36, 0), rgba(36, 36, 36, .3));
+    }
+
+    .song-thumbnail .image {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      border-radius: 5px;
+      background-position: center center!important;
+    }
+
+    .page-template-new-pianu-academy .song-thumbnail,
+    .page-template-new-account-page .you-are-here .song-thumbnail {
+      min-height: 100px;
+    }
+
+    .page-template-new-pianu-academy .song {
+      width: 160px!important;
+      margin: 2px!important;
+      max-width: 30%!important;
+    }
+
+    .song .sheet-music {
+      display: block;
+      position: absolute;
+      height: 25px;
+      width: 56px;
+      right: 10px;
+      color: #4f5053;
+      top: 0;
+      z-index: 2;
+      border-bottom-left-radius: 4px;
+      border-bottom-right-radius: 4px;
+      background: #fff;
+      font-size: 12px;
+      line-height: 25px;
+      text-transform: uppercase;
+      font-weight: 800;
+      padding: 0;
+    }
+
+    .song-name {
+      font-size: 15px;
+      line-height: 1;
+      text-transform: uppercase;
+      font-weight: 800;
+      color: #fff;
+      position: absolute;
+      bottom: 25px;
+      width: 100%;
+    }
+
+    .completed-song {
+      background: #fff;
+      color: #616060;
+      display: inline-block;
+      padding: 5px 5px;
+      border-radius: 0 0 5px 5px;
+      display: none;
+      width: auto;
+    }
+
+    .song.complete .completed-song {
+      display: inline-block;
+    }
+
+    .difficulty {
+      position: absolute;
+      bottom: 5px;
+      font-family: serif;
+      font-size: 13px;
+      line-height: 20px;
+      font-weight: 800;
+      left: 50%;
+      -webkit-transform: translateX(-50%);
+      transform: translateX(-50%);
+    }
+
+    .difficulty::before,
+    .difficulty::after {
+      left: 100%;
+      content: '';
+      color: #fff;
+    }
+
+    .difficulty::after {
+      right: 100%;
+      content: '';
+      opacity: .3;
+    }
+
+    .difficulty.one-star::before {
+      content: "★";
+    }
+
+    .difficulty.one-star::after {
+      content: "★★★★★";
+    }
+
+    .difficulty.two-star::before {
+      content: "★★";
+    }
+
+    .difficulty.two-star::after {
+      content: "★★★★";
+    }
+
+    .difficulty.three-star::before {
+      content: "★★★";
+    }
+
+    .difficulty.three-star::after {
+      content: "★★★";
+    }
+
+    .difficulty.four-star::before {
+      content: "★★★★";
+    }
+
+    .difficulty.four-star::after {
+      content: "★★";
+    }
+
+    .difficulty.five-star::before {
+      content: "★★★★★";
+    }
+
+    .difficulty.five-star::after {
+      content: "★";
+    }
+
+    .difficulty.six-star::before {
+      content: "★★★★★★";
+    }
+
+    .difficulty.six-star::after {
+      content: "";
+    }
+
+    @media screen and (max-width: 1024px) {
+      footer .osmd,
+      footer #copyright {
+        padding: 25px;
+      }
+    }
+
+    @media screen and (max-width: 767px) {
+      h2 {
+        font-size: 21px;
+      }
+    #header {
+padding-left: 5px;
+}
+      .menu-main-nav-container ul li a {
+        font-size: 0;
+      }
+      .menu-main-nav-container ul li a svg {
+        opacity: 1;
+      }
+      .menu-main-nav-container ul li {
+        padding: 0 2px;
+      }
+      .menu-main-nav-container .logo {
+        width: 60px;
+      }
+    }
+    </style>
+
+                
+
+     
+            
+<!-- account for uploader -->
+        
+     
+        <script type="text/javascript">
+        var ajaxurl = 'https://pianu.com/wp-admin/admin-ajax.php';
+    </script>
+
+
+    
+<!-- Open Graph Meta Tags generated by Blog2Social 642 - https://www.blog2social.com -->
+<meta property="og:title" content="Detect My Keyboard">
+<meta property="og:description" content="">
+<meta property="og:url" content="https://pianu.com/detect-my-keyboard">
+<!-- Open Graph Meta Tags generated by Blog2Social 642 - https://www.blog2social.com -->
+
+<!-- Twitter Card generated by Blog2Social 642 - https://www.blog2social.com -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Detect My Keyboard">
+<meta name="twitter:description" content="">
+<!-- Twitter Card generated by Blog2Social 642 - https://www.blog2social.com -->
+<meta name="author" content="Support">
+
+<!-- Search Engine Optimization by Rank Math - https://s.rankmath.com/home -->
+<meta name="description" content="Pianu is the first interactive online piano that teaches you how to play. Learn how to read music and chords, all while playing your favorite songs. Detect My">
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large">
+<link rel="canonical" href="https://pianu.com/detect-my-keyboard">
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Detect My Keyboard - Pianu - The Online Piano That Teaches You How to Play">
+<meta property="og:description" content="Pianu is the first interactive online piano that teaches you how to play. Learn how to read music and chords, all while playing your favorite songs. Detect My">
+<meta property="og:url" content="https://pianu.com/detect-my-keyboard">
+<meta property="og:site_name" content="Pianu - The Online Piano That Teaches You How to Play">
+<meta property="og:updated_time" content="2017-12-13T00:28:31-05:00">
+<meta property="fb:app_id" content="734043803315879">
+<meta property="og:image" content="https://pianu.com/wp-content/uploads/2019/10/pianu-logo.png">
+<meta property="og:image:secure_url" content="https://pianu.com/wp-content/uploads/2019/10/pianu-logo.png">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="600">
+<meta property="og:image:alt" content="pianu logo">
+<meta property="og:image:type" content="image/png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Detect My Keyboard - Pianu - The Online Piano That Teaches You How to Play">
+<meta name="twitter:description" content="Pianu is the first interactive online piano that teaches you how to play. Learn how to read music and chords, all while playing your favorite songs. Detect My">
+<meta name="twitter:creator" content="@mattcurney">
+<meta name="twitter:image" content="https://pianu.com/wp-content/uploads/2019/10/pianu-logo.png">
+<!-- /Rank Math WordPress SEO plugin -->
+
+<link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+
+
+
+
+<link rel="stylesheet" id="membermouse-font-awesome-css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=5.5" type="text/css" media="all">
+
+
+
+
+
+
+<script type="text/javascript">(function(a,d){if(a._nsl===d){a._nsl=[];var c=function(){if(a.jQuery===d)setTimeout(c,33);else{for(var b=0;b<a._nsl.length;b++)a._nsl[b].call(a,a.jQuery);a._nsl={push:function(b){b.call(a,a.jQuery)}}}};c()}})(window);</script><script type="text/javascript" src="https://pianu.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp" id="jquery-js"></script>
+<script type="text/javascript" id="membermouse-global-js-extra">
+/* <![CDATA[ */
+var MemberMouseGlobal = {"jsIsAdmin":"","adminUrl":"https:\/\/pianu.com\/wp-admin\/","globalurl":"https:\/\/pianu.com\/wp-content\/plugins\/membermouse","checkoutProcessingPaidMessage":"Processing your request...","checkoutProcessingFreeMessage":"Creating your account...","checkoutProcessingMessageCSS":"mm-checkout-processing-message","currencyInfo":{"currency":"USD","postfixIso":false,"name":"United States Dollar","int_curr_symbol":"&#85;&#83;&#68;&#32;","currency_symbol":"$","mon_decimal_point":".","mon_thousands_sep":",","mon_grouping":"3;3","positive_sign":"","negative_sign":"","int_frac_digits":"2","frac_digits":"2","p_cs_precedes":"1","p_sep_by_space":"0","n_cs_precedes":"1","n_sep_by_space":"0","p_sign_posn":"1","n_sign_posn":"1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/membermouse/resources/js/global.js?ver=2.3.3" id="membermouse-global-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/membermouse/resources/js/common/mm-common-core.js?ver=2.3.3" id="mm-common-core.js-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/membermouse/resources/js/user/mm-preview.js?ver=2.3.3" id="mm-preview.js-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1" id="jquery-migrate-js"></script>
+<link rel="https://api.w.org/" href="https://pianu.com/wp-json/"><link rel="alternate" type="application/json" href="https://pianu.com/wp-json/wp/v2/pages/20619"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://pianu.com/xmlrpc.php?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://pianu.com/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.5">
+<link rel="shortlink" href="https://pianu.com/?p=20619">
+<link rel="alternate" type="application/json+oembed" href="https://pianu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpianu.com%2Fdetect-my-keyboard">
+<link rel="alternate" type="text/xml+oembed" href="https://pianu.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fpianu.com%2Fdetect-my-keyboard&amp;format=xml">
+
+<!-- Affiliates Manager plugin v2.7.6 - https://wpaffiliatemanager.com/ -->
+<script type="text/javascript">var kc_script_data={ajax_url:"https://pianu.com/wp-admin/admin-ajax.php"}</script><meta name="follow.it-verification-code-MVArNDNMOFFJM1JNb1BDRmhLbkNWRGxHa2xoZmN6UWttK05pYVBUVWhkYkhzZnFLTjdrdjJBazZOV2VKeEZiRnZQZHlmSEQvRlhIYmtEUTlWVmZOY3dXbWNIWW1URU9LcmFDWkJ6dEZOSEJxcEVZOGptYlRLNHJnZFdtKzMwZTh8bWFjRnpDVzFoRC9RNlpkVHJ2SWRTU2doaFNNMjRiTk81V0JiU3VnNkpEYz0=" content="LJ52PUsmyka4zrnMK93B"><script type="text/javascript" src="//script.crazyegg.com/pages/scripts/0093/3151.js" async="async"></script><style type="text/css">div.nsl-container[data-align="left"] {
+text-align: left;
+}
+
+div.nsl-container[data-align="center"] {
+text-align: center;
+}
+
+div.nsl-container[data-align="right"] {
+text-align: right;
+}
+
+
+div.nsl-container .nsl-container-buttons a {
+text-decoration: none !important;
+box-shadow: none !important;
+border: 0;
+}
+
+div.nsl-container .nsl-container-buttons {
+display: flex;
+padding: 5px 0;
+}
+
+div.nsl-container-block .nsl-container-buttons {
+flex-flow: column;
+align-items: center;
+}
+
+div.nsl-container-block .nsl-container-buttons a {
+flex: 1 1 auto;
+display: block;
+margin: 5px 0;
+max-width: 280px;
+width: 100%;
+}
+
+div.nsl-container-inline {
+margin: -5px;
+text-align: left;
+}
+
+div.nsl-container-inline .nsl-container-buttons {
+justify-content: center;
+flex-wrap: wrap;
+}
+
+div.nsl-container-inline .nsl-container-buttons a {
+margin: 5px;
+display: inline-block;
+}
+
+div.nsl-container-grid .nsl-container-buttons {
+flex-flow: row;
+align-items: center;
+flex-wrap: wrap;
+}
+
+div.nsl-container-grid .nsl-container-buttons a {
+flex: 1 1 auto;
+display: block;
+margin: 5px;
+max-width: 280px;
+width: 100%;
+}
+
+@media only screen and (min-width: 650px) {
+div.nsl-container-grid .nsl-container-buttons a {
+    width: auto;
+}
+}
+
+div.nsl-container .nsl-button {
+cursor: pointer;
+vertical-align: top;
+border-radius: 4px;
+}
+
+div.nsl-container .nsl-button-default {
+color: #fff;
+display: flex;
+}
+
+div.nsl-container .nsl-button-icon {
+display: inline-block;
+}
+
+div.nsl-container .nsl-button-svg-container {
+flex: 0 0 auto;
+padding: 8px;
+display: flex;
+}
+
+div.nsl-container svg {
+height: 24px;
+width: 24px;
+vertical-align: top;
+}
+
+div.nsl-container .nsl-button-default div.nsl-button-label-container {
+margin: 0 24px 0 12px;
+padding: 10px 0;
+font-family: Helvetica, Arial, sans-serif;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: .25px;
+overflow: hidden;
+text-align: center;
+text-overflow: clip;
+white-space: nowrap;
+flex: 1 1 auto;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+text-transform: none;
+display: inline-block;
+}
+
+div.nsl-container .nsl-button-google[data-skin="dark"] .nsl-button-svg-container {
+margin: 1px;
+padding: 7px;
+border-radius: 3px;
+background: #fff;
+}
+
+div.nsl-container .nsl-button-google[data-skin="light"] {
+border-radius: 1px;
+box-shadow: 0 1px 5px 0 rgba(0, 0, 0, .25);
+color: RGBA(0, 0, 0, 0.54);
+}
+
+div.nsl-container .nsl-button-apple .nsl-button-svg-container{
+padding: 0 6px;
+}
+div.nsl-container .nsl-button-apple .nsl-button-svg-container svg{
+height: 40px;
+width: auto;
+}
+
+div.nsl-container .nsl-button-apple[data-skin="light"] {
+color: #000;
+box-shadow: 0 0 0 1px #000
+}
+
+div.nsl-container .nsl-button-apple div.nsl-button-label-container{
+font-size: 17px;
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.nsl-clear {
+clear: both;
+}
+
+/*Button align start*/
+div.nsl-container-block[data-align="left"] .nsl-container-buttons {
+align-items: flex-start;
+}
+
+div.nsl-container-block[data-align="center"] .nsl-container-buttons {
+align-items: center;
+}
+
+div.nsl-container-block[data-align="right"] .nsl-container-buttons {
+align-items: flex-end;
+}
+
+div.nsl-container-inline[data-align="left"] .nsl-container-buttons {
+justify-content: flex-start;
+}
+
+div.nsl-container-inline[data-align="center"] .nsl-container-buttons {
+justify-content: center;
+}
+
+div.nsl-container-inline[data-align="right"] .nsl-container-buttons {
+justify-content: flex-end;
+}
+
+
+div.nsl-container-grid[data-align="left"] .nsl-container-buttons {
+justify-content: flex-start;
+}
+
+div.nsl-container-grid[data-align="center"] .nsl-container-buttons {
+justify-content: center;
+}
+
+div.nsl-container-grid[data-align="right"] .nsl-container-buttons {
+justify-content: flex-end;
+}
+
+div.nsl-container-grid[data-align="space-around"] .nsl-container-buttons {
+justify-content: space-around;
+}
+
+div.nsl-container-grid[data-align="space-between"] .nsl-container-buttons {
+justify-content: space-between;
+}
+
+/* Button align end*/</style>		<style type="text/css" id="wp-custom-css">
+        p, li {
+color: #fff;
+}
+ul {
+margin-left: 20px;
+margin-top: 20px;
+}
+.main-unlock-callout .button {
+background: #5b299a;
+}
+.product-faq h2 img {
+position: relative;
+top: 10px;
+}
+.osmd {
+color: #fff;
+}
+footer nav {
+text-align: left;
+width: 69% !important;
+}
+.breaks.ftrlinsec {
+width: 33%;
+float: left;
+margin: 0;
+}
+.social-container.ftrsocial {
+width: 30%;
+text-align: center;	
+}
+div#copyright {
+width: 100%;
+padding: 20px 45px;
+}
+.social-container.ftrsocial a span {
+width: 40px;
+height: 40px;
+text-align: center;
+line-height: 40px;
+border-radius: 50%;
+font-size: 25px !important;
+}
+span.fa.fa-facebook {
+background: #5f82c2;
+}
+span.fa.fa-twitter {
+background: #40cdd7;
+}
+span.fa.fa-youtube {
+background: #ce201f;
+}
+h3.cncttitle {
+margin-bottom: 15px;
+}
+.unit-one, .unit-three, .unit-five {
+background: #000000;
+}
+.library-background {
+background: #5b299a;
+}
+.hero-keyboard {
+background-color: rgb(91, 41, 154, 0.7);
+
+}
+.our-top-pick {
+background: #5b299a;
+}
+.product .wrap::before {
+background: #000000;
+}
+.what-you-get {
+background: #5b299a;
+}
+
+.faq-wrap .wrap {
+background: #000000;
+}
+
+@media screen and (max-width: 992px){
+ul#menu-main-nav-logo {
+width: 100%;
+text-align: center;
+}
+.burgerbtn{
+    display:block !important;
+}
+ul#menu-main-nav {
+display: none;
+}	
+li.logo.newlgo {
+width: 110px;
+}
+.menu-main-nav-container {
+width: 100%;
+    float: left;
+}
+.my-account {
+z-index: 6;
+padding-right: 25px;
+position: absolute;
+right: 0;
+top: 0px;
+display: block;
+align-items: center;
+float: right;
+width: auto;
+padding: 0;
+margin-top: 5px;
+}
+.mobielheader {
+display: block !important;
+float: right;
+text-align: right;
+}
+img.useravatar {
+width: 60px;
+position: relative;
+top: 0;
+left: 0;
+}
+.wholediv {
+display: none;
+}
+.mobilelinkdiv {
+background: #000;
+width: 125px;
+text-align: center;
+position: absolute;
+right: -16px;
+padding: 10px;
+margin-top: -5px;
+}
+.mobilelinkdiv a {
+color: #fff;
+margin: 10px 0;
+display: block;
+}
+img.useravatar.useravatarmobile {
+cursor: pointer;
+}
+.mobielheader:hover .mobilelinkdiv {
+display: block !important;
+}
+.insidelearn {
+width: 75% !important;
+}
+.fourcolumn {
+width: 50%;
+margin-bottom: 15px;
+}
+img.ganjaman {
+width: 100%;
+margin-top: 100px;
+}
+.herotwomain {
+float: left;
+width: 98%;
+margin-left: 1%;
+margin-right: 1%;
+}
+.lastsecchild.childone {
+float: left;
+width: 100%;
+}
+.lastsecchild.childtwo {
+float: left;
+width: 100%;
+}
+img.vidimg {
+width: 98%;
+float: none;
+padding-top: 10px;
+}
+footer nav {
+text-align: left;
+width: 100% !important;
+}
+.social-container.ftrsocial {
+width: 100%;
+text-align: center;
+}
+div#copyright {
+text-align: center;
+}
+.newquerytable .keys-option span {
+display: none;
+}
+
+}
+
+@media screen and (max-width: 768px){
+.insidelearn {
+width: 80% !important;
+}
+.fourcolumn {
+width: 100%;
+margin-bottom: 15px;
+}
+.mobileganja {
+display: block !important;
+}
+.desktopganja {
+display: none !important;
+}
+.herotwosub.subone {
+float: left;
+width: 100%;
+padding: 20px;
+}
+.mobileganja {
+width: 100% !important;
+padding: 0 !important;
+margin-bottom: 25px;	
+}
+.mobileganja img {
+margin: 0;
+}
+.herotwomain {
+float: left;
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+text-align: center;
+}
+.breaks.ftrlinsec {
+width: 100%;
+float: left;
+margin: 0;
+text-align: center;
+}
+.breaks.ftrlinsec a {
+display: block;
+text-align: center;
+}
+.lastsec.songs-you-love {
+padding: 50px 15px !important;
+}
+.lastsec.songs-you-love h4 {
+text-align: center;
+}
+}
+@media screen and (max-width: 480px){
+.lastsecchild.childone .song {
+height: 180px;
+}
+.postthumb img {
+height: 260px;
+}	
+}
+
+
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+
+.sidenav a {
+padding: 8px 8px 8px 32px;
+text-decoration: none;
+font-size: 25px;
+color: #818181;
+display: block;
+transition: 0.3s;
+}
+
+.sidenav a:hover {
+color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+position: absolute;
+top: 0;
+right: 25px;
+font-size: 36px;
+margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+
+span.burgerbtn {
+position: absolute;
+color: #fff;
+top: 12px;
+z-index: 99;
+}
+div#mySidenav {
+z-index: 999;
+}
+.fullwidthhelper {
+background: #000;
+}
+.entry-content h1 {
+text-align: center;
+font-weight: normal;
+font-size: 40px;
+}
+.my-account .profile-links {
+background: #000000;
+}
+.my-account .profile-links p {
+text-align: center;
+margin-top: 10px;
+}
+.product-faq {
+margin-bottom: 100px;
+padding: 25px 0;
+}
+.product-faq h2 {
+margin-top: 0;
+}
+
+footer {
+background: #000000;
+}
+h4.wpsm_panel-title {
+padding: 15px;
+}
+.page-id-21011 .faq-wrap {
+overflow: hidden !important;
+}
+.wpsm_panel-body a {
+color: #5b299a;
+text-decoration: underline;
+}
+
+
+
+section.mainpagediv {
+float: left;
+width: 100%;
+padding-top: 100px;
+}
+
+.comonunit {
+width: 100%;
+display: block;
+float: left;	
+padding-left: 20px;
+padding-right: 20px;	
+}
+.note-color {
+width: 25px;
+height: 30px;
+text-align: center;
+line-height: 35px;
+}
+.introsec {
+text-align: center;
+padding: 20px 0;
+width: 100%;
+float: left;	
+}
+.songupperhead {
+text-align: center;
+padding: 20px 0;
+float: left;
+width: 100%;	
+}
+.songmainrow {
+width: 70%;
+float: left;
+margin: 0 auto;
+margin-left: 15%;
+margin-right: 15%;
+}
+.lessonsdiv {
+float: left;
+width: 100%;
+text-align: center;
+padding: 25px 0;
+}
+.songcol {
+float: left;
+width: 33.333333%;
+padding: 0 15px;
+}
+.song-image {
+float: left;
+width: 100%;
+}
+.song-image img {
+width: 100%;
+height: 300px;
+object-fit: cover;
+}
+.note-color {
+position: absolute;
+margin-left: 20px;
+}
+.songmetadata {
+float: left;
+width: 100%;
+background: #000;
+padding: 10px;
+text-align: center;
+margin-top: -4px;	
+color: #fff;	
+}
+.songsection {
+float: left;
+width: 100%;
+}
+.songname {
+padding: 10px 0;
+font-weight: bold;
+font-size: 18px;	
+}
+.difficultystar i {
+font-size: 21px;
+color:#fff;
+}
+.difficultystar {
+padding-bottom: 10px;
+}
+a.lessionancher {
+display: inline-block;
+background: #fff;
+color: #000 !important;
+width: 30%;
+}
+a.lessionancher p, a.lessionancher h3 {
+color: #000;
+float: left;
+width: 100%;
+text-align: left;
+margin: 0;
+}
+a.lessionancher {
+display: inline-block;
+background: #fff;
+color: #000 !important;
+width: 30%;
+padding: 25px 20px;
+}
+a.lessionancher p {
+margin-bottom: 10px;
+}
+p.likebtn {
+background: #000;
+display: inline-block;
+padding: 10px 25px;
+border-radius: 5px;
+font-weight: bold;
+font-size: 18px;
+text-transform: uppercase;
+}
+.introsec h1 {
+font-weight: 500;
+}
+
+.introsec .para2 {
+font-size: 18px;
+margin-top: 5px;	
+}
+.songupperhead p {
+font-size: 18px;
+}
+.songupperhead h3 {
+font-size: 48px;
+font-weight: normal;
+}
+.uniteone {
+background: #000000;
+}
+.uniteone .songmetadata {
+background: #5b299a;
+}
+.uniteone p.likebtn {
+background: #5b299a;
+}
+.multileveldiv {
+float: left;
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+.multiinner {
+float: left;
+width: 50%;
+padding: 0 20px;
+}
+.multiinner a.lessionancher {
+width: 100%;
+}
+
+@media screen and (max-width: 1450px){
+.songmainrow {
+width: 90%;
+margin-left: 5%;
+margin-right: 5%;
+}
+a.lessionancher {
+display: inline-block;
+background: #fff;
+color: #000 !important;
+width: 45%;
+padding: 25px 20px;
+}	
+}
+
+@media screen and (max-width: 1200px){
+.songmainrow {
+width: 100%;
+margin-left: 0%;
+margin-right: 0%;
+}
+a.lessionancher {
+display: inline-block;
+background: #fff;
+color: #000 !important;
+width: 50%;
+padding: 25px 20px;
+}	
+}
+@media screen and (max-width: 768px){
+.songcol {
+width: 100%;
+}
+a.lessionancher {
+width: 90%;
+}
+.multileveldiv {
+float: left;
+width: 100%;
+margin-left: 0;
+margin-right: 0;
+}	
+}
+@media screen and (max-width: 480px){
+.song-image img {
+height: 200px;
+}
+.songcol {
+padding: 0;
+margin-bottom: 20px;	
+}
+.songupperhead h3 {
+font-size: 32px;
+font-weight: normal;
+}
+.introsec h1 {
+font-weight: 500;
+font-size: 28px;
+}
+.multiinner {
+padding: 0;
+margin-bottom: 5px;
+}
+a.lessionancher {
+width: 100%;
+}
+.multiinner {
+width: 100%;
+}	
+}
+
+.academy-progress img {
+background: #5b2999;
+padding: 20px;	
+}
+h5.badgetxt {
+padding: 20px 0;
+color: #fff;
+}
+
+footer {
+padding: 0px 10px 0px !Important;
+}
+.main-unlock-callout {;
+margin-bottom: 80px;
+margin-top: -150px;
+z-index: 1;
+}
+.yellow-button {
+background: #5b299a;
+color: #ffffff!important;
+}
+.main-unlock-callout span.button {
+background: #5b299a;
+color: #ffffff;
+}
+.main-unlock-callout:hover .button {
+background: #5b299a;
+}
+.black-button {
+background: #5b299a;
+border-radius: 40px;
+}
+.maroon-button {
+background: #5b299a;
+color: #fff;
+border-radius: 40px;
+margin: -10px;
+}
+a.button.maroon-button br {
+display: none;
+}
+.buy .option:hover .subscribe-now {
+background: #5b299a;
+color: #ffffff;
+}
+.buy .option:hover svg .layer1 {
+fill: #5b299a;
+}
+.buy .option .subscribe-now {
+background: #5b299a;
+
+}
+.buy .option svg .layer1 {
+fill: #5b299a;
+transition: fill 200ms ease;
+}
+#pt-cv-view-ca2e5a8kih .pt-cv-readmore {
+border-radius: 40px;
+padding: 6px 20px;
+}
+input.wpcf7-form-control.wpcf7-submit.button.red-button {
+background: #000 !important;
+}
+.mm-checkoutContainer .title {
+background: linear-gradient(to right, #444846, #000000);
+
+}
+
+a.coupon.button.green-button {
+background: #5b299a;
+}
+a.mm-button.large.white {
+background: #5b299a!important;
+}
+.mm-checkoutSection2 li {
+color: #000 !important;
+}
+.keyboard-controls {
+transform: scale(1.5);
+width: 66%;
+transform-origin: 0 0;
+height: 30px;
+}
+.home-keyboard {
+height: 35vh;
+padding-top: 60px;
+}
+.keyboard-page .price {
+color: #ffffff;
+}
+.yellow-button:hover {
+background: #5b299a;
+}
+.our-top-pick a.button.black-button {
+background: #000;
+}
+span.save24 {
+position: absolute;
+right: 10px;
+margin-top: -8px;
+font-weight: 800;
+font-size: 16px !important;
+color: #5b299a;
+}
+
+span.cancelanytime {
+font-weight: 800;
+font-size: 16px !important;
+color: #5b299a;
+position: absolute;
+text-align: center;
+float: left;
+width: 100%;
+left: 0;
+bottom: 8px;
+}
+img.themlikeimg {
+padding: 15px;
+}
+
+
+
+.page-id-71 section.entry-content {
+background: #000;
+padding-bottom: 20px;	
+}
+.page-id-71 .center {
+background: #363636;
+margin-bottom: 0;
+padding: 20px;
+border-radius: 20px;
+}
+.page-id-71 .center p a {
+color: #fff;
+text-decoration: underline;
+}
+.page-id-71   span.wpcf7-quiz-label {
+color: #fff;
+}
+.page-id-71  input.wpcf7-form-control.wpcf7-submit.button.red-button {
+background: #5b299a !important;
+}
+.page-id-71   .wpcf7 {
+margin-bottom: 55px !important;
+}
+.page-id-71   input[type="text"], .page-id-71   input[type="password"], .page-id-71   input[type="email"], .page-id-71   textarea, .page-id-71   select{
+max-width:460px !Important;
+background: transparent;
+border: 1px solid #fff;
+border-radius: 36px;
+padding: 15px !important;
+color: #fff;	
+}
+.footer-distributed{
+background: #000;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+box-sizing: border-box;
+width: 100%;
+text-align: left;
+font: bold 16px sans-serif;
+padding: 55px 25px !Important;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+display: inline-block;
+vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+color:  #ffffff;
+font: normal 36px 'Open Sans', cursive;
+margin: 0;
+}
+
+.footer-distributed h3 span{
+color:  lightseagreen;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+color:  #ffffff;
+margin: 20px 0 12px;
+padding: 0;
+}
+
+.footer-distributed .footer-links a{
+display:inline-block;
+line-height: 1.8;
+font-weight:400;
+text-decoration: none;
+color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+color: #fff;
+font-size: 14px;
+font-weight: normal;
+margin-top: 20px;
+margin-bottom: 10px;
+margin-left: 0;	
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+width: 35%;
+}
+
+.footer-distributed .footer-center i{
+background-color:  #33383b;
+color: #ffffff;
+font-size: 25px;
+width: 38px;
+height: 38px;
+border-radius: 50%;
+text-align: center;
+line-height: 42px;
+margin: 10px 15px;
+vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+font-size: 17px;
+line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+display: inline-block;
+color: #ffffff;
+font-weight:400;
+vertical-align: middle;
+margin:0;
+}
+
+.footer-distributed .footer-center p span{
+display:block;
+font-weight: normal;
+font-size:14px;
+line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+color:  lightseagreen;
+text-decoration: none;;
+}
+
+.footer-distributed .footer-links a:before {
+content: "|";
+font-weight:300;
+font-size: 20px;
+left: 0;
+color: #fff;
+display: inline-block;
+padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+content: none;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+line-height: 20px;
+color:  #fff;
+font-size: 14px;
+font-weight: normal;
+margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+display: block;
+color:  #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+display: inline-block;
+width: 35px;
+height: 35px;
+cursor: pointer;
+background-color:  #33383b;
+border-radius: 2px;
+
+font-size: 20px;
+color: #ffffff;
+text-align: center;
+line-height: 35px;
+
+margin-right: 3px;
+margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+.footer-distributed{
+    font: bold 14px sans-serif;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.footer-distributed .footer-center i{
+    margin-left: 0;
+}
+
+}
+
+img.ftrlogo {
+width: 120px;
+}
+
+
+.footer-distributed a{
+color:#fff !important;
+}
+p.footer-company-name.osmdcftr {
+color: #fff !important;
+}
+p.footer-company-name.osmdcftr a {
+text-decoration: underline;
+}
+span.concenttxt {
+display: block;
+color: #ffffff;
+font-size: 18px;
+font-weight: bold;
+margin-bottom: 20px;
+}
+
+
+img.pt-cv-thumbnail.img-none.no-lazyload {
+object-fit: cover;
+height: 400px;
+object-position: center center;
+}
+.tl-item-content {
+height: 400px !important;
+}
+
+.page-id-18214 h1.entry-title {
+display: none;
+}
+.thumbwithtitle figure.content-image img {
+width: 90px;
+}
+.thumbwithtitle .kc-fb-layout-4 {
+min-height: 110px;
+}
+.nomrgbtm div#wpcf7-f26620-p18214-o1{
+margin-bottom:0 !Important;
+}
+h4.shetnew {
+color: #fff;
+margin-bottom: 15px;
+}
+.newhtmeta{
+margin-bottom: 15px;
+}
+form#mainForm label {
+color: #fff !important;
+}
+
+
+.page-template-teacher-form .entry-content {
+background-image: none !important;
+background-color: #5b299a !important;
+}
+
+
+@media screen and (max-width: 767px){
+.zsiq_theme1 .siqico-chat:before {
+font-size: 16px !important;
+line-height: 38px !important;	
+}
+.zsiq_theme1 .zsiq_flt_rel {
+width: 40px !important;
+height: 40px !important;
+}
+div#titlediv {
+display: none;
+}
+video#bgvid {
+display: none !important;
+}
+body .wpcf7-mail-sent-ok, div.wpcf7-response-output {
+width: 100% !important;
+}
+body .wpcf7-mail-sent-ok {
+margin: 0 !important;
+}	
+.single-post .zsiq_floatmain {
+display: none !important;
+}
+.single-blog .blog-title {
+font-size: 20px;
+}
+.single-blog .blog-image {
+display: none;
+}
+.header-content {
+position: relative;
+left: 0;
+top: 0;
+width: 100%;
+max-height: auto;
+margin-top: 100px;
+}
+.post-previous a h2,
+.post-next a h2{
+font-size: 16px;
+}	
+}
+
+
+div#titlediv {
+display: none;
+}
+
+
+#endpoint-dropdown {
+background: #5b299a;
+}
+
+body.night, .branding.night, #header.night {
+background: #242424 !important;
+transition: background 300ms ease;
+}		</style>
+    <script type="text/javascript"></script><style type="text/css" id="kc-css-general">.kc-off-notice{display: inline-block !important;}.kc-container{max-width:1190px;}</style><style type="text/css" id="kc-css-render"></style><style id="tt-easy-google-font-styles" type="text/css">p { }
+h1 { }
+h2 { }
+h3 { }
+h4 { }
+h5 { }
+h6 { }
+</style>		
+    <script>
+        jQuery(document).ready(function(){
+            jQuery('body').click(function(e) {
+                if (jQuery(e.target).closest('.my-account').length === 0) {
+                    jQuery('.profile-links').hide();
+                }
+            });
+            jQuery('.my-account').hover(function() {
+                jQuery('.profile-links').show();
+                profileLinks = true;
+            });
+            jQuery('.my-account').click(function(){
+                jQuery('.profile-links').hide();
+                profileLinks = false;
+            });
+        });
+    </script>
+    
+    <script>
+function openNav() {
+document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+    
+<style>
+.jaalone, .jaaltwo {
+background: url(https://pianu.com/wp-content/themes/pianu/img/pianodots.png);
+height: 145px;
+width: 28%;
+background-repeat: repeat-x;
+background-size: contain;
+margin: 0 auto;
+border-radius: 30px;
+}
+.newquerytable {
+width: 40%;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+.controls-wrap{
+background: url(https://pianu.com/wp-content/themes/pianu/img/pianoheadbg.png);
+background-repeat: repeat-x;
+background-size: contain;
+padding: 0;
+padding-top: 20px;
+padding-bottom: 20px;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.newquerytable {
+border-radius: 15px;
+width: 40%;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: center;
+background: url(https://pianu.com/wp-content/themes/pianu/img/quertybg.png);
+min-height: 150px;
+background-size: contain;
+background-repeat: repeat-x;
+padding: 20px 0;
+border: 3px solid #000;
+}
+.insidelearn {
+margin: 0 auto;
+color: #fff;
+text-align: center;
+width: 38%;
+padding: 30px;
+background: url(https://pianu.com/wp-content/themes/pianu/img/anyonebg.png);
+background-repeat: repeat-x;
+background-size: contain;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+margin-top: -2px;
+    font-weight: bold;
+font-size: 20px;
+}
+
+.hero-keyboard .keyboard-dude {
+background: url(https://pianu.com/wp-content/uploads/2018/09/keyboard-page-min-min.png) no-repeat center center;
+background-size: cover !important;	
+}
+body {
+background: #5b299a !important;
+}
+
+@media screen and (max-width: 767px){
+.blog-image {
+background: none !important;
+}
+body.night, .branding.night, #header.night {
+background: #242424 !important;
+}
+.keyboard-controls {
+transform: scale(1);
+width: 100%;
+transform-origin: 0 0;
+height: 30px;
+}	
+}
+
+
+</style>
+<script type="text/javascript">var whoistrack_params=whoistrack_params||[];whoistrack_params.push(["wait","8EED8922-68FE-485A-8E4B-A76BFC160DA4"]);var t=document["createElement"]("script"),i;t["type"]="text/javascript";t["src"]=window["location"]["href"]["split"]("/")[0]+"//app.whoisvisiting.com/who.js";i=document["getElementsByTagName"]("script")[0];i["parentNode"]["insertBefore"](t,i);</script>	 
+<style type="text/css">:root topadblock, :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root img[alt^="Fuckbook"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root iframe[id^="google_ads_iframe"], :root div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"], :root div[id^="zergnet-widget"], :root div[id^="traffective-ad-"], :root div[id^="sticky_ad_"], :root div[id^="q1-adset-"], :root div[id^="proadszone-"], :root div[id^="mainads"], :root div[id^="lazyad-"], :root div[id^="gtm-ad-"], :root div[id^="google_dfp_"], :root div[id^="google_ads_iframe_"], :root div[id^="ezoic-pub-ad"], :root div[id^="dmRosAdWrapper"], :root div[id^="div-gpt-ad"], :root div[id^="div-adtech-ad-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="block-views-topheader-ad-block-"], :root div[id^="advt-"], :root div[id^="advads_"], :root div[id^="ads300_600-widget"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root div[id^="ads300_250-widget"], :root div[id^="ads300_100-widget"], :root div[id^="ads250_250-widget"], :root div[id^="ads120_600-widget"], :root div[id^="adrotate_widgets-"], :root div[id^="adfox_"], :root div[id^="ad_script_"], :root div[id^="ad_rect_"], :root div[id^="ad_position_"], :root div[id^="ad-server-"], :root div[id^="ad-cid-"], :root div[id^="acm-ad-tag-"], :root div[id^="YFBMSN"], :root div[id^="ADV-SLOT-"], :root div[data-spotim-slot], :root div[data-role="sidebarAd"], :root div[data-native_ad], :root div[data-mediatype="advertising"], :root div[data-id-advertdfpconf], :root div[data-flt-ve="sponsored_search_ads"], :root div[data-crl="true"][data-id^="CarouselPLA-"], :root div[data-adunit], :root div[data-adunit-path], :root div[class^="proadszone-"], :root div[class^="pane-google-admanager-"], :root a[href^="http://adultgames.xxx/"], :root a[href^="http://semi-cod.com/clicks/"], :root div[class^="index_displayAd_"], :root a[href^="http://www.affbuzzads.com/affiliate/"], :root div[class^="index_adBeforeContent_"], :root div[class^="index_adAfterContent_"], :root a[href^="http://dwn.pushtraffic.net/"], :root div[class^="hp-ad-rect-"], :root div[class^="gemini-ad"], :root div[class^="block-openx-"], :root div[class^="ads-partner-"], :root div[class^="ad_border_"], :root a[href^="http://adprovider.adlure.net/"], :root div[class^="Ad__container"], :root div[class*="_AdInArticle_"], :root div[class^="ad_position_"], :root a[href^="http://www.afco2go.com/srv.php?"], :root div[aria-label="Ads"], :root div > [class][onclick*=".updateAnalyticsEvents"], :root a[href*="/servlet/click/zone?"], :root c-wiz[jsrenderer="YnuqN"] > div > div > .Rn1jbe, :root bottomadblock, :root a[href^="https://watchmygirlfriend.tv/"], :root aside[itemtype="https://schema.org/WPAdBlock"], :root a[href^="http://c.actiondesk.com/"], :root aside[id^="div-gpt-ad"], :root aside[id^="adrotate_widgets-"], :root amp-ad-custom, :root [id*="MGWrap"], :root ad-desktop-sidebar, :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root div[id^="div-ads-"], :root a[href^="http://at.atwola.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://popup.taboola.com/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root div[class^="AdhesionAd_"], :root div[class^="Ad__bigBox"], :root div[role="navigation"] + c-wiz > script + div > .kxhcC, :root a[onclick*="//m.economictimes.com/etmack/click.htm"], :root a[href^="https://www.travelzoo.com/oascampaignclick/"], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="https://www.securegfm.com/"], :root DFP-AD, :root a[href^="//porngames.adult/?SID="], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="http://webgirlz.online/landing/"], :root a[href^="https://www.g4mz.com/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="https://www.firstload.com/affiliate/"], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camyou.com/?cam="][href*="&track="], :root a[href^="https://www.bebi.com"], :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="http://farm.plista.com/pets"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root a[href^="http://adf.ly/?id="], :root a[href^="https://uncensored3d.com/"], :root div[id^="tms-ad-dfp-"], :root a[href^="https://trust.zone/go/r.php?RID="], :root a[href^="https://trf.bannerator.com/"], :root a[href^="https://track.adform.net/"], :root a[href^="https://traffic.bannerator.com/"], :root a[href^="https://tracking.truthfinder.com/?a="], :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root a[href^="https://tracking.gitads.io/"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://track.healthtrader.com/"], :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://control.trafficfabrik.com/"], :root a[href^="https://track.52zxzh.com/"], :root .ra[align="right"][width="30%"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://www.what-sexdating.com/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://t.mobtya.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.hrtye.com/"], :root div[id^="ad_head_celtra_"], :root a[href^="https://t.grtyi.com/"], :root aside[id^="tn_ads_widget-"], :root a[href^="https://syndication.exoclick.com/splash.php?"], :root a[href^="http://connectlinking6.com/"], :root a[href^="http://cdn3.adexprts.com/"], :root a[href^="https://spygasm.com/track?"], :root div[id^="ad-div-"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root div[class^="Display_displayAd"], :root a[href^="https://secure.bstlnk.com/"], :root a[href^="https://rev.adsession.com/"], :root div[id^="yandex_ad"], :root a[href*=".frtyl.com/"], :root a[href^="http://y1jxiqds7v.com/"], :root a[href^="https://www.hotgirls4fuck.com/"], :root a[href^="https://www.pornhat.com/"][rel="nofollow"], :root AD-SLOT, :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"], :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="https://porndeals.com/?track="], :root a[href^="https://offerforge.net/"], :root a[href^="https://my-movie.club/"], :root a[href^="https://mk-cdn.net/"], :root a[href^="https://mk-ads.com/"], :root a[href^="https://medleyads.com/"], :root a[href*=".approvallamp.club/"], :root a[href^="https://landing1.brazzersnetwork.com"], :root a[href^="https://land.rk.com/landing/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="https://jmp.awempire.com/"], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="http://www.usearchmedia.com/signup?"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="https://gogoman.me/"], :root [href^="https://IS.ltroute.com/"], :root a[href^="https://go.stripchat.com/"][href*="&campaignId="], :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://track.afftck.com/"], :root a[href^="http://guideways.info/"], :root a[href^="https://go.cmrdr.com/"], :root a[href*=".inclk.com/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://freeadult.games/"], :root a[href^="//nlkdom.com/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root a[href^="https://fonts.fontplace9.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="https://flirtaescopa.com/"], :root a[href^="https://fleshlight.sjv.io/"], :root [lazy-ad="leftthin_banner"], :root a[href^="https://dynamicadx.com/"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root div[class^="local-feed-banner-ads"], :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="], :root a[href^="https://retiremely.com/"], :root a[href^="https://cpmspace.com/"], :root a[href^="https://click.plista.com/pets"], :root a[href^="https://chaturbate.xyz/"], :root a[href^="http://look.djfiln.com/"], :root a[href^="https://chaturbate.jjgirls.com/"][href*="?tour="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://chaturbate.com/affiliates/"], :root .mod > ._jH + .rscontainer, :root a[href^="https://blackorange.go2cloud.org/"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://awentw.com/"], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="https://www.popads.net/users/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="https://sexdatingz.live/"], :root a[href^="//bwnjijl7w.com/"], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root a[href*="pussl3.com"], :root a[href^="https://adswick.com/"], :root ADS-RIGHT, :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root a[href^="https://adserver.adreactor.com/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://refpaano.host/"], :root a[href^="https://meet-to-fuck.com/tds"], :root a[href^="https://adhealers.com/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="https://ad.atdmt.com/"], :root .trc_rbox .syndicatedItem, :root a[href^="https://aaucwbe.com/"], :root a[href^="https://8a1ccf65f2b1302.com/"], :root a[href^="http://xtgem.com/click?"], :root a[href^="https://ads.trafficpoizon.com/"], :root a[href^="http://rekoverr.com/"], :root a[href^="https://chaturbate.com/in/?track="], :root div[id^="cns_ads_"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www1.clickdownloader.com/"], :root a[href^="http://www.zergnet.com/i/"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root span[data-component-type="s-ads-metrics"], :root div[class^="AdBannerWrapper-"], :root a[href^="http://www.text-link-ads.com/"], :root a[href^="https://weedzy.co.uk/"][href*="&utm_"], :root a[href^="https://gghf.mobi/"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="http://www.streamate.com/exports/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/?utm_"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://ffxitrack.com/"], :root a[href^="https://www.im88trk.com/"], :root a[href^="http://adexprt.me/"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root a[href^="https://trklvs.com/"], :root a[href^="http://www.paddypower.com/?AFF_ID="], :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root a[href^="http://www.myvpn.pro/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.mysuperpharm.com/"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root div[id^="advads-"], :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="], :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root a[href^="http://www.moneyducks.com/"], :root a[href^="http://bcntrack.com/"], :root a[href^="http://www.securegfm.com/"], :root a[href^="http://www.liversely.net/"], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="//88d7b6aa44fb8eb.com/"], :root a[href^="http://www.ireel.com/signup?ref"], :root a[href*="=Adtracker"], :root a[href^="http://www.incredimail.com/?id="], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://www.hitcpm.com/"], :root a[href^="http://fusionads.net"], :root a[href^="http://www.hibids10.com/"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root div[id^="div_openx_ad_"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href*="emprestimo.eu"], :root a[href^="https://content.oneindia.com/www/delivery/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="http://www.flashx.tv/downloadthis"], :root div[class^="SponsoredAds"], :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root a[href^="https://americafirstpolls.com/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="http://www.fducks.com/"], :root a[href^="http://www.epicgameads.com/"], :root a[href^="http://www.easydownloadnow.com/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="https://go.trkclick2.com/"], :root a[href^="http://www.duckcash.eu/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="https://trafficmedia.center/"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root .rscontainer > .ellip, :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="http://www.clickansave.net/"], :root div[class^="adpubs-"], :root a[href*="deliver.trafficfabrik.com"], :root a[href^="http://www.cash-duck.com/"], :root a[href^="http://www.bitlord.me/share/"], :root div[class^="Directory__footerAds"], :root a[href^="http://www.bet365.com/"][href*="?affiliate="], :root a[href^="http://www.bet365.com/"][href*="&affiliate="], :root a[href^="http://www.badoink.com/go.php?"], :root div[data-ad-underplayer], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://www.richducks.com/"], :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="http://www.socialsex.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="http://go.ad2up.com/"], :root a[href^="https://badoinkvr.com/"], :root a[href*="/adServe/banners?"], :root a[href^="http://www.adxpansion.com"], :root .plistaList > .itemLinkPET, :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root a[href^="http://www.TwinPlan.com/AF_"], :root div[class^="adbanner_"], :root a[href^="http://www.brightwheel.info/"], :root a[href^="https://www.iclwy.xyz/"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root div[itemtype="http://www.schema.org/WPAdBlock"], :root a[href^="http://wopertific.info/"], :root a[href^="http://bodelen.com/"], :root a[href^="http://wgpartner.com/"], :root div[class^="Ad__adContainer"], :root a[href^="http://web.adblade.com/"], :root div[class^="BlockAdvert-"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="http://wct.link/"], :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="http://vinfdv6b4j.com/"], :root a[href^="http://s9kkremkr0.com/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://ul.to/ref/"], :root a[href^="http://ucam.xxx/?utm_"], :root a[href^="https://adsrv4k.com/"], :root a[href^="http://trk.mdrtrck.com/"], :root a[href^="http://traffic.tc-clicks.com/"], :root div[class^="awpcp-random-ads"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://tracking.toroadvertising.com/"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="http://tracking.deltamediallc.com/"], :root a[href^="http://track.adform.net/"], :root a[href^="http://tour.affbuzzads.com/"], :root a[href^="https://iac.ampxdirect.com/"], :root a[href^="http://t.mdn2015x3.com/"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^="http://stateresolver.link/"], :root a[href^="http://sharesuper.info/"], :root a[href^="https://awecrptjmp.com/"], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://secure.cbdpure.com/aff/"], :root aside[id^="advads_ad_widget-"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://uploaded.net/ref/"], :root a[href^="http://t.mdn2015x1.com/"], :root a[href^="http://azmobilestore.co/"], :root a[href^="http://s5prou7ulr.com/"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root div[class*="-storyBodyAd-"], :root a[href^="https://easygamepromo.com/ef/custom_affiliate/"], :root [href^="https://get-download.club/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="https://keep2share.cc/pr/"], :root a[href^="https://clixtrac.com/"], :root [onclick*="content.ad/"], :root a[href^="http://adlev.neodatagroup.com/"], :root a[href^="http://reallygoodlink.extremefreegames.com/"], :root a[href^="http://promos.bwin.com/"], :root a[href*=".irtyc.com/"], :root a[href^="http://z1.zedo.com/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root a[href^="https://dltags.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://mmo123.co/"], :root a[href^="https://www.oboom.com/ref/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="http://allaptair.club/"], :root .section-result[data-result-ad-type], :root a[href^="https://deliver.ptgncdn.com/"], :root a[href^="http://latestdownloads.net/download.php?"], :root a[href^="http://k2s.cc/code/"], :root #topstuff > #tads, :root a[href*=".bang.com/"][href*="&aff="], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[href^="https://gamescarousel.com/"], :root a[href^="http://istri.it/?"], :root a[href^="//awejmp.com/"], :root a[href^="http://mob1ledev1ces.com/"], :root a[href^="http://www.fbooksluts.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root a[href^="//api.ad-goi.com/"], :root a[href*="//ridingintractable.com/"], :root a[href^="http://intent.bingads.com/"], :root div[id^="crt-"][style], :root a[href^="http://igromir.info/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="https://intrev.co/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root .ob_container .item-container-obpd, :root a[href^="http://websitedhoome.com/"], :root a[href^="http://www.adskeeper.co.uk/"], :root a[href^="https://clickadilla.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="http://45eijvhgj2.com/"], :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://searchtabnew.com/"], :root a[href*="?adlivk="][href*="&refer="], :root a[href^="//look.djfiln.com/"], :root a[href^="http://greensmoke.com/"], :root a[href^="//5e1fcb75b6d662d.com/"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="https://bnsjb1ab1e.com/"], :root a[href^="http://mo8mwxi1.com/"], :root div[class^="ResponsiveAd-"], :root a[href^="http://install.securewebsiteaccess.com/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="https://mcdlks.com/"], :root a[href^="https://bs.serving-sys.com"], :root .__y_elastic .__y_item, :root a[href^="http://go.mobisla.com/"], :root a[href^="//srv.buysellads.com/"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root .widget-pane-section-result[data-result-ad-type], :root a[href^="http://imads.integral-marketing.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://adtrackone.eu/"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://fileloadr.com/"], :root a[href^="http://extra.bet365.com/"][href*="?affiliate="], :root a[href^="http://ethfw0370q.com/"], :root [id^="bunyad_ads_"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://eclkmpsa.com/"], :root a[href*="//3wr110.xyz/"], :root a[href^="http://earandmarketing.com/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root [href^="https://maskip.co/"], :root a[href^="http://getlinksinaseconds.com/"], :root a[href*=".mfroute.com/"], :root #content > #center > .dose > .dosesingle, :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root a[href^="http://d2.zedo.com/"], :root a[href^="http://keep2share.cc/pr/"], :root a[href^="http://cp.cbbp1.com"], :root a[href^="http://contractallsticker.net/"], :root a[href^="http://codec.codecm.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://clicks.binarypromos.com/"], :root iframe[name^="google_ads_iframe"], :root div[class^="largeRectangleAd_"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="http://www.wantstraffic.com/"], :root a[href^="http://databass.info/"], :root a[href^="http://www.urmediazone.com/signup"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://chaturbate.com/affiliates/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="http://www.friendlyadvertisements.com/"], :root a[href^="//00ae8b5a9c1d597.com/"], :root a[href^="http://cdn3.adbrau.com/"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root [lazy-ad="top_banner"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://dftrck.com/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root a[href^="http://download-performance.com/"], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root #\5f _nq__hh[style="display:block!important"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="http://xads.zedo.com/"], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://c.jumia.io/"], :root a[href^="https://bullads.net/get/"], :root a[href^="http://yads.zedo.com/"], :root a[href^="http://down1oads.com/"], :root a[href^="http://buysellads.com/"], :root a[href^="https://uncensored.game/"], :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href^="http://betahit.click/"], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="http://bestorican.com/"], :root a[href^="http://bcp.crwdcntrl.net/"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://banners.victor.com/processing/"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root a[href^="http://anonymous-net.com/"], :root a[href^="https://www.dsct1.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root a[href^="http://aflrm.com/"], :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root a[href^="http://partner.sbaffiliates.com/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://aff.ironsocket.com/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="https://zononi.com/"], :root a[href^="http://adserving.unibet.com/"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://adserver.adreactor.com/"], :root a[href^="http://www.yourfuckbook.com/?"], :root a[href^="//go.onclasrv.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root #\5f _mom_ad_2, :root a[href^="http://ads.sprintrade.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root a[href^="http://ads.affbuzzads.com/"], :root a[href^="//mob1ledev1ces.com/"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="http://go.trafficshop.com/"], :root a[href^="http://ads.ad-center.com/"], :root a[href^="https://horny-pussies.com/tds"], :root a[href^="http://adfarm.mediaplex.com/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="https://k2s.cc/pr/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="http://a63t9o1azf.com/"], :root a[href^="http://srvpub.com/"], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://adtrack123.pl/"], :root a[href^="http://9amq5z4y1y.com/"], :root a[href^="http://4c7og3qcob.com/"], :root a[href^="//go.vedohd.org/"], :root a[href^="http://www.ducksnetwork.com/"], :root a[href^="http://3wr110.net/"], :root a[href^="https://track.trkinator.com/"], :root a[href^="//ads.ad-center.com/"], :root a[href^="http://1phads.com/"], :root a[href^="//zenhppyad.com/"], :root a[href^="//www.pd-news.com/"], :root [href*=".doubleclick-net.com"], :root a[href^="//www.mgid.com/"], :root a[href^="http://lp.ncdownloader.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[href^="http://pwrads.net/"], :root a[href^="//oardilin.com/"], :root div[id^="ad-gpt-"], :root a[href^="http://pan.adraccoon.com?"], :root a[href^="https://ilovemyfreedoms.com/"][href*="?affiliate_id="], :root a[href^="//healthaffiliate.center/"], :root .l-container > #fishtank, :root a[href^="https://www.oboom.com/ad/"], :root a[href^="//4f6b2af479d337cf.com/"], :root a[href^="http://n217adserv.com/"], :root a[href^="//4c7og3qcob.com/"], :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="https://awejmp.com/"], :root [href*="//go2page.net"], :root a[href^=" http://www.sex.com/"][href*="&utm_"], :root a[href^="https://fileboom.me/pr/"], :root a[href^="http://marketgid.com"], :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root a[href*="onclkds."], :root div[id^="ad-position-"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://liversely.com/"], :root a[href*="=exoclick"], :root div[class^="backfill-taboola-home-slot-"], :root a[href*="=adscript"], :root #mn #center_col > div > h2.spon:first-child, :root a[href*="//bongacams5.com/track?"], :root FBS-AD, :root a[href*="5iclx7wa4q.com"], :root a[href^="http://refpaano.host/"], :root a[href*="/cmd.php?ad="], :root a[href^="https://www.adxtro.com/"], :root a[href*="delivery.trafficfabrik.com"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root #center_col > #resultStats + #tads + #res + #tads, :root a[href*="//bongacams2.com/track?"], :root a[href*=".udncoeln.com/"], :root a[href*=".qertewrt.com/"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[href*=".smartadserver.com"], :root #ads > .dose > .dosesingle, :root a[href*=".revimedia.com/"], :root .__ywvr .__y_item, :root a[href^="https://farm.plista.com/pets"], :root a[href*=".red90121.com/"], :root a[href^="https://playuhd.host/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root a[href*=".purple6401.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href*=".opskln.com/"], :root a[href^="http://adrunnr.com/"], :root div[id^="div_ad_stack_"], :root a[href*=".ichlnk.com/"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root .mod > .gws-local-promotions__border, :root a[href^="https://deliver.tf2www.com/"], :root a[href^="http://spygasm.com/track?"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href*=".adk2x.com/"], :root a[href^="http://data.committeemenencyclopedicrepertory.info/"], :root a[href*=".allsports4you.club"], :root #MAIN.ShowTopic > .ad, :root a[href^="https://porngames.adult/?SID="], :root a[href^="http://findersocket.com/"], :root a[href^="https://m.do.co/c/"] > img, :root #tads + div + .c, :root a[href^="//jsmptjmp.com/"], :root #ssmiwdiv[jsdisplay], :root a[href*=".adform.net/"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="http://liversely.net/"], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root a[href^="http://www.coiwqe.site/"], :root iframe[id^="google_ads_frame"], :root a[href^="http://www.bluehost.com/track/"] > img, :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://play4k.co/"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://n.admagnet.net/"], :root a[href^="http://bestchickshere.com/"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root [onclick^="window.open('https://www.brazzersnetwork.com/landing/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root a[href^="http://mgid.com/"], :root a[href*="a2g-secure.com"], :root #resultspanel > #topads, :root a[href^="http://espn.zlbu.net/"], :root a[href^="https://vod09197d7.club/"], :root a[href^="http://k2s.cc/pr/"], :root a[href^="http://9nl.es/"], :root #assetsListings[style="display: block;"], :root [onclick^="window.open('window.open('//delivery.trafficfabrik.com/"], :root a[href^=" http://n47adshostnet.com/"], :root [id*="MarketGid"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://refpa.top/"], :root a[href*="//bongacams.com/track?"], :root a[href^="https://servedbyadbutler.com/"], :root a[href^="https://mob1ledev1ces.com/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://explore.findanswersnow.net/"], :root [id^="adframe_wrap_"], :root a[href^="http://c.ketads.com/"], :root a[href^="http://6kup12tgxx.com/"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[href*=".fwd28.com/"], :root [lazy-ad="leftbottom_banner"], :root p[id^="div-gpt-ad-"], :root a[href^="http://fsoft4down.com/"], :root a[href*="ad2upapp.com/"], :root a[href^="http://see-work.info/"], :root a[href*="/adrotate-out.php?"], :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root a[href*=".orange2258.com/"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root a[href*="get-express-vpn.xyz"], :root a[href*=".intab.fun/"], :root [href*="//etracking.pro"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="https://goraps.com/"], :root .gbfwa > div[class$="_item"], :root [href^="http://www.xiloy.site/"], :root a[href^="https://www.passeura.com/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="https://www.friendlyduck.com/AF_"], :root [href^="http://advertisesimple.info/"], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root [href*="//xml.revrtb.com/"], :root [href*="//trackout.business"], :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root a[href^="http://adclick.g.doubleclick.net/"], :root [href*="//mclick.net"], :root a[href^=" http://ads.ad-center.com/"], :root .trc_rbox_div .syndicatedItem, :root .commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk, :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="http://www.installads.net/"], :root div[role="navigation"] + c-wiz > div > .kxhcC, :root a[href^="http://www.download-provider.org/"], :root [href*="//doubleclick-net.com"], :root a[href^="http://webtrackerplus.com/"], :root a[href^="https://ad13.adfarm1.adition.com/"], :root a[href^="http://clickandjoinyourgirl.com/"], :root div[itemtype="http://schema.org/WPAdBlock"], :root a[href^="https://www.nudeidols.com/cams/"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root [href*=".trackout.business"], :root [href*=".etracking.pro"], :root a[href^="http://get.slickvpn.com/"], :root [data-ad-module], :root [href*=".go2page.net"], :root a[href^="http://hd-plugins.com/download/"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="http://www.afgr3.com/"], :root [ad-id^="googlead"], :root .ra[align="left"][width="30%"], :root a[href^="https://trackjs.com/?utm_source"], :root AFS-AD, :root #main-content > [style="padding:10px 0 0 0 !important;"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root div[class^="lifeOnwerAd"], :root a[href$="/vghd.shtml"], :root a[href^="https://redirect.ero-advertising.com/"], :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root div[data-subscript="Advertising"], :root div[class$="dealnews"] > .dealnews, :root a[href^="http://t.mdn2015x2.com/"], :root a[href^="http://b.bestcompleteusa.info/"], :root .trc_rbox_div .syndicatedItemUB, :root a[href^="http://deloplen.com/afu.php?zoneid="], :root a[href^="//db52cc91beabf7e8.com/"], :root [id*="ScriptRoot"], :root a[href*=".clksite.com/"], :root a[href^="http://www.webtrackerplus.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root .vi-lb-placeholder[title="ADVERTISEMENT"], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root LEADERBOARD-AD, :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root #center_col > #taw > #tvcap > .commercial-unit-desktop-top, :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="http://servicegetbook.net/"], :root #rhs_block > #mbEnd, :root a[href^="http://cinema.friendscout24.de?"], :root [lazy-ad="lefttop_banner"], :root a[href^="http://www.mrskin.com/tour"], :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root a[href^="https://www.incredimail.com/?id"], :root a[href^="http://api.content.ad/"], :root a[href^="http://adtransfer.net/"], :root a[href*=".clkcln.com/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="http://landingpagegenius.com/"], :root a[data-redirect^="http://click.plista.com/pets"], :root #rhs_block > script + .c._oc._Ve.rhsvw, :root #\5f _mom_ad_12, :root .__zinit .__y_item, :root .ch[onclick="ga(this,event)"], :root .__ywl .__y_item, :root a[href^="http://track.trkvluum.com/"], :root a[href^="http://linksnappy.com/?ref="], :root [src^="/Redirect.a2b?"], :root #center_col > #resultStats + #tads, :root .__yinit .__y_item, :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root a[href^="https://secure.cbdpure.com/aff/"], :root AMP-AD, :root iframe[src*="mellowads.com"], :root .__y_inner > .__y_item, :root #cnt #center_col > #res > #topstuff > .ts, :root a[href^="https://landing.brazzersnetwork.com/"], :root .rc-cta[data-target], :root a[href*="//promo-bc.com/track?"], :root a[href^="http://www.firstclass-download.com/"], :root a[href*=".trust.zone"], :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root div[class^="AdEmbeded__AddWrapper"], :root a[href^="http://affiliates.score-affiliates.com/"], :root a[href^="https://a.adtng.com/"], :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root .Mpopup + #Mad > #MadZone, :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="http://www.streamtunerhd.com/signup?"], :root #center_col > #\5f Emc, :root a[href^="http://click.payserve.com/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href*=".cfm?fp="][href*="&prvtof="], :root [href*=".mclick.net"], :root #center_col > #taw > #tvcap > .cu-container > .commercial-unit-desktop-top, :root div[class^="advertisement-desktop"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="https://www.spyoff.com/"], :root AD-TRIPLE-BOX, :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root .mw > #rcnt > #center_col > #taw > .c, :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root #header + #content > #left > #rlblock_left, :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="http://bluehost.com/track/"], :root a[href^="https://squren.com/rotator/?atomid="], :root a[href^="//40ceexln7929.com/"], :root #center_col > #resultStats + div + #res + #tads, :root .nrelate .nr_partner, :root a[href^="http://www.afgr2.com/"], :root #mn div[style="position:relative"] > #center_col > ._Ak, :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="//medleyads.com/spot/"], :root a[href*="mfroute.com/"], :root a[href^="//z6naousb.com/"], :root div[id^="ad_bigbox_"], :root #content > #right > .dose > .dosesingle, :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root a[href^="http://tezfiles.com/pr/"], :root a[href^="http://t.wowtrk.com/"], :root div[id^="adspot-"], :root #\5f _admvnlb_modal_container, :root #center_col > #taw > #tvcap > .rscontainer, :root div[id^="drudge-column-ads-"], :root a[href^="http://tour.mrskin.com/"], :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://is.ltroute.com/"], :root a[href^="http://www.incredimail.com/?id"], :root a[href^="http://ad-apac.doubleclick.net/"], :root a[data-nvp*="'trafficUrl':'https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://vo2.qrlsx.com/"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root a[href^="http://ad.yieldmanager.com/"], :root a[href^="http://www.plus500.com/?id="], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root a[href^="https://giftsale.co.uk/?utm_"] { display: none !important; }</style><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/security.js"></script><style type="text/css" title="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><style type="text/css">:root topadblock, :root script[src^="http://free-shoutbox.net/app/webroot/shoutbox/sb.php?shoutbox="] + #freeshoutbox_content, :root input[onclick^="window.open('http://www.FriendlyDuck.com/"], :root img[alt^="Fuckbook"], :root iframe[src^="http://static.mozo.com.au/strips/"], :root iframe[id^="google_ads_iframe"], :root div[jscontroller="U835zd"] + c-wiz[jsrenderer="YnuqN"], :root div[id^="zergnet-widget"], :root div[id^="traffective-ad-"], :root div[id^="sticky_ad_"], :root div[id^="q1-adset-"], :root div[id^="proadszone-"], :root div[id^="mainads"], :root div[id^="lazyad-"], :root div[id^="gtm-ad-"], :root div[id^="google_dfp_"], :root div[id^="google_ads_iframe_"], :root div[id^="ezoic-pub-ad"], :root div[id^="dmRosAdWrapper"], :root div[id^="div-gpt-ad"], :root div[id^="div-adtech-ad-"], :root div[id^="dfp-slot-"], :root div[id^="dfp-ad-"], :root div[id^="block-views-topheader-ad-block-"], :root div[id^="advt-"], :root div[id^="advads_"], :root div[id^="ads300_600-widget"], :root input[onclick^="window.open('http://www.friendlyduck.com/"], :root div[id^="ads300_250-widget"], :root div[id^="ads300_100-widget"], :root div[id^="ads250_250-widget"], :root div[id^="ads120_600-widget"], :root div[id^="adrotate_widgets-"], :root div[id^="adfox_"], :root div[id^="ad_script_"], :root div[id^="ad_rect_"], :root div[id^="ad_position_"], :root div[id^="ad-server-"], :root div[id^="ad-cid-"], :root div[id^="acm-ad-tag-"], :root div[id^="YFBMSN"], :root div[id^="ADV-SLOT-"], :root div[data-spotim-slot], :root div[data-role="sidebarAd"], :root div[data-native_ad], :root div[data-mediatype="advertising"], :root div[data-id-advertdfpconf], :root div[data-flt-ve="sponsored_search_ads"], :root div[data-crl="true"][data-id^="CarouselPLA-"], :root div[data-adunit], :root div[data-adunit-path], :root div[class^="proadszone-"], :root div[class^="pane-google-admanager-"], :root a[href^="http://adultgames.xxx/"], :root a[href^="http://semi-cod.com/clicks/"], :root div[class^="index_displayAd_"], :root a[href^="http://www.affbuzzads.com/affiliate/"], :root div[class^="index_adBeforeContent_"], :root div[class^="index_adAfterContent_"], :root a[href^="http://dwn.pushtraffic.net/"], :root div[class^="hp-ad-rect-"], :root div[class^="gemini-ad"], :root div[class^="block-openx-"], :root div[class^="ads-partner-"], :root div[class^="ad_border_"], :root a[href^="http://adprovider.adlure.net/"], :root div[class^="Ad__container"], :root div[class*="_AdInArticle_"], :root div[class^="ad_position_"], :root a[href^="http://www.afco2go.com/srv.php?"], :root div[aria-label="Ads"], :root div > [class][onclick*=".updateAnalyticsEvents"], :root a[href*="/servlet/click/zone?"], :root c-wiz[jsrenderer="YnuqN"] > div > div > .Rn1jbe, :root bottomadblock, :root a[href^="https://watchmygirlfriend.tv/"], :root aside[itemtype="https://schema.org/WPAdBlock"], :root a[href^="http://c.actiondesk.com/"], :root aside[id^="div-gpt-ad"], :root aside[id^="adrotate_widgets-"], :root amp-ad-custom, :root [id*="MGWrap"], :root ad-desktop-sidebar, :root a[style="display:block;width:300px;min-height:250px"][href^="http://li.cnet.com/click?"], :root div[id^="div-ads-"], :root a[href^="http://at.atwola.com/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="http://popup.taboola.com/"], :root a[href^="//adbit.co/?a=Advertise&"], :root a[onmousedown^="this.href='/wp-content/embed-ad-content/"], :root div[class^="AdhesionAd_"], :root div[class^="Ad__bigBox"], :root div[role="navigation"] + c-wiz > script + div > .kxhcC, :root a[onclick*="//m.economictimes.com/etmack/click.htm"], :root a[href^="https://www.travelzoo.com/oascampaignclick/"], :root a[href^="https://www.share-online.biz/affiliate/"], :root a[href^="https://www.securegfm.com/"], :root DFP-AD, :root a[href^="//porngames.adult/?SID="], :root a[href^="https://www.oneclickroot.com/?tap_a="] > img, :root a[href^="https://www.iyalc.com/"], :root a[href^="https://www.goldenfrog.com/vyprvpn?offer_id="][href*="&aff_id="], :root a[href^="https://www.get-express-vpn.com/offer/"], :root a[href^="http://webgirlz.online/landing/"], :root a[href^="https://www.g4mz.com/"], :root .trc_related_container div[data-item-syndicated="true"], :root a[href^="https://www.firstload.com/affiliate/"], :root a[href^="https://www.clicktraceclick.com/"], :root a[href^="https://www.camyou.com/?cam="][href*="&track="], :root a[href^="https://www.bebi.com"], :root a[href^="https://www.awin1.com/cread.php?awinaffid="], :root a[href^="https://www.adskeeper.co.uk/"], :root a[href^="http://farm.plista.com/pets"], :root a[href^="https://windscribe.com/promo/"], :root a[href^="http://ad-emea.doubleclick.net/"], :root a[href^="https://understandsolar.com/signup/?lead_source="][href*="&tracking_code="], :root a[href^="http://adf.ly/?id="], :root a[href^="https://uncensored3d.com/"], :root div[id^="tms-ad-dfp-"], :root a[href^="https://trust.zone/go/r.php?RID="], :root a[href^="https://trf.bannerator.com/"], :root a[href^="https://track.adform.net/"], :root a[href^="https://traffic.bannerator.com/"], :root a[href^="https://tracking.truthfinder.com/?a="], :root #rhs_block .xpdopen > ._OKe > div > .mod > ._yYf, :root a[href^="https://tracking.gitads.io/"], :root a[href^="https://track.ultravpn.com/"], :root a[href^="https://www.adultempire.com/"][href*="?partner_id="], :root a[href^="https://track.healthtrader.com/"], :root a[href^="https://track.clickmoi.xyz/"], :root a[href^="https://control.trafficfabrik.com/"], :root a[href^="https://track.52zxzh.com/"], :root .ra[align="right"][width="30%"], :root a[href^="https://tour.mrskin.com/"], :root a[href^="https://www.what-sexdating.com/"], :root a[href^="https://tc.tradetracker.net/"] > img, :root a[href^="https://t.mobtya.com/"], :root a[href^="https://t.hrtyj.com/"], :root a[href^="https://t.hrtye.com/"], :root div[id^="ad_head_celtra_"], :root a[href^="https://t.grtyi.com/"], :root aside[id^="tn_ads_widget-"], :root a[href^="https://syndication.exoclick.com/splash.php?"], :root a[href^="http://connectlinking6.com/"], :root a[href^="http://cdn3.adexprts.com/"], :root a[href^="https://spygasm.com/track?"], :root div[id^="ad-div-"], :root a[href^="https://secure.eveonline.com/ft/?aid="], :root div[class^="Display_displayAd"], :root a[href^="https://secure.bstlnk.com/"], :root a[href^="https://rev.adsession.com/"], :root div[id^="yandex_ad"], :root a[href*=".frtyl.com/"], :root a[href^="http://y1jxiqds7v.com/"], :root a[href^="https://www.hotgirls4fuck.com/"], :root a[href^="https://www.pornhat.com/"][rel="nofollow"], :root AD-SLOT, :root a[href^="https://pubads.g.doubleclick.net/"], :root a[href^="https://prf.hn/click/"][href*="/adref:"], :root #rhs_block .mod > .gws-local-hotels__booking-module, :root a[href^="http://www.my-dirty-hobby.com/?sub="], :root a[href^="https://porndeals.com/?track="], :root a[href^="https://offerforge.net/"], :root a[href^="https://my-movie.club/"], :root a[href^="https://mk-cdn.net/"], :root a[href^="https://mk-ads.com/"], :root a[href^="https://medleyads.com/"], :root a[href*=".approvallamp.club/"], :root a[href^="https://landing1.brazzersnetwork.com"], :root a[href^="https://land.rk.com/landing/"], :root .lads[width="100%"][style="background:#FFF8DD"], :root a[href^="https://land.brazzersnetwork.com/landing/"], :root a[href^="https://juicyads.in/"], :root a[href^="https://members.linkifier.com/public/affiliateLanding?refCode="], :root a[href^="https://jmp.awempire.com/"], :root a[href^="https://incisivetrk.cvtr.io/click?"], :root a[href^="https://iactrivago.ampxdirect.com/"], :root a[href^="http://www.usearchmedia.com/signup?"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"] + .ob_source, :root a[href^="https://googleads.g.doubleclick.net/pcs/click"], :root a[href^="http://cdn.adstract.com/"], :root a[href^="https://gogoman.me/"], :root [href^="https://IS.ltroute.com/"], :root a[href^="https://go.stripchat.com/"][href*="&campaignId="], :root a[href^="https://go.hpyrdr.com/"], :root a[href^="https://track.afftck.com/"], :root a[href^="http://guideways.info/"], :root a[href^="https://go.cmrdr.com/"], :root a[href*=".inclk.com/"], :root a[href^="https://go.ad2up.com/"], :root a[href^="https://freeadult.games/"], :root a[href^="//nlkdom.com/"], :root a[onmousedown^="this.href='http://staffpicks.outbrain.com/network/redir?"][target="_blank"], :root a[href^="https://fonts.fontplace9.com/"], :root a[href^="http://clkmon.com/adServe/"], :root a[href^="https://flirtaescopa.com/"], :root a[href^="https://fleshlight.sjv.io/"], :root [lazy-ad="leftthin_banner"], :root a[href^="https://dynamicadx.com/"], :root a[href^="http://wxdownloadmanager.com/dl/"], :root div[class^="local-feed-banner-ads"], :root .GFYY1SVE2 > .GFYY1SVD2 > .GFYY1SVG5, :root a[href^="https://djtcollectorclub.org/"][href*="?affiliate_id="], :root a[href^="https://retiremely.com/"], :root a[href^="https://cpmspace.com/"], :root a[href^="https://click.plista.com/pets"], :root a[href^="https://chaturbate.xyz/"], :root a[href^="http://look.djfiln.com/"], :root a[href^="https://chaturbate.jjgirls.com/"][href*="?tour="], :root a[href^="https://chaturbate.com/in/?tour="], :root a[href^="https://chaturbate.com/affiliates/"], :root .mod > ._jH + .rscontainer, :root a[href^="https://blackorange.go2cloud.org/"], :root a[href^="http://www.1clickdownloader.com/"], :root a[href^="https://www.googleadservices.com/pagead/aclk?"], :root a[href^="https://awentw.com/"], :root a[href^="http://adultfriendfinder.com/p/register.cgi?pid="], :root a[href^="https://www.popads.net/users/"], :root iframe[src^="http://ad.yieldmanager.com/"], :root a[href^="http://pubads.g.doubleclick.net/"], :root a[href^="https://sexdatingz.live/"], :root a[href^="//bwnjijl7w.com/"], :root a[href^="https://adultfriendfinder.com/go/page/landing"], :root a[href*="pussl3.com"], :root a[href^="https://adswick.com/"], :root ADS-RIGHT, :root .GKJYXHBF2 > .GKJYXHBE2 > .GKJYXHBH5, :root a[href^="https://adserver.adreactor.com/"], :root a[href^="https://adnetwrk.com/"], :root a[href^="https://refpaano.host/"], :root a[href^="https://meet-to-fuck.com/tds"], :root a[href^="https://adhealers.com/"], :root a[href^="https://ad.doubleclick.net/"], :root a[href^="http://zevera.com/afi.html"], :root a[href^="http://go.oclaserver.com/"], :root a[href^="https://ad.atdmt.com/"], :root .trc_rbox .syndicatedItem, :root a[href^="https://aaucwbe.com/"], :root a[href^="https://8a1ccf65f2b1302.com/"], :root a[href^="http://xtgem.com/click?"], :root a[href^="https://ads.trafficpoizon.com/"], :root a[href^="http://rekoverr.com/"], :root a[href^="https://chaturbate.com/in/?track="], :root div[id^="cns_ads_"], :root a[data-obtrack^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www1.clickdownloader.com/"], :root a[href^="http://www.zergnet.com/i/"], :root a[href^="http://www.torntv-downloader.com/"], :root a[href^="http://www.tirerack.com/affiliates/"], :root span[data-component-type="s-ads-metrics"], :root div[class^="AdBannerWrapper-"], :root a[href^="http://www.text-link-ads.com/"], :root a[href^="https://weedzy.co.uk/"][href*="&utm_"], :root a[href^="https://gghf.mobi/"], :root a[href^="http://www.terraclicks.com/"], :root a[href^="http://www.streamate.com/exports/"], :root a[onmousedown^="this.href='https://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.sfippa.com/"], :root a[href^="http://www.xmediaserve.com/"], :root a[href^="http://www.sex.com/videos/?utm_"], :root a[href^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/?utm_"], :root a[onmousedown^="this.href='http://paid.outbrain.com/network/redir?"][target="_blank"], :root a[href^="http://www.roboform.com/php/land.php"], :root a[href^="http://secure.signup-page.com/"], :root a[href^="http://www.quick-torrent.com/download.html?aff"], :root a[href^="http://ffxitrack.com/"], :root a[href^="https://www.im88trk.com/"], :root a[href^="http://adexprt.me/"], :root a[href^="http://www.pinkvisualgames.com/?revid="], :root a[href^="https://trklvs.com/"], :root a[href^="http://www.paddypower.com/?AFF_ID="], :root #mn div[style="position:relative"] > #center_col > div > ._dPg, :root a[href^="http://www.myvpn.pro/"], :root a[href^="http://www.freefilesdownloader.com/"], :root a[href^="http://www.mysuperpharm.com/"], :root .trc_rbox_border_elm .syndicatedItem, :root a[href^="http://www.myfreepaysite.com/sfw_int.php?aid"], :root a[href^="http://www.myfreepaysite.com/sfw.php?aid"], :root div[id^="advads-"], :root a[href^="http://www.myfreecams.com/?co_id="][href*="&track="], :root .rhsvw[style="background-color:#fff;margin:0 0 14px;padding-bottom:1px;padding-top:1px;"], :root a[href^="http://www.moneyducks.com/"], :root a[href^="http://bcntrack.com/"], :root a[href^="http://www.securegfm.com/"], :root a[href^="http://www.liversely.net/"], :root a[href^="http://www.linkbucks.com/referral/"], :root a[href^="//88d7b6aa44fb8eb.com/"], :root a[href^="http://www.ireel.com/signup?ref"], :root a[href*="=Adtracker"], :root a[href^="http://www.incredimail.com/?id="], :root a[href^="http://www.idownloadplay.com/"], :root a[href^="http://www.hitcpm.com/"], :root a[href^="http://fusionads.net"], :root a[href^="http://www.hibids10.com/"], :root a[href^="http://www.gamebookers.com/cgi-bin/intro.cgi?"], :root div[id^="div_openx_ad_"], :root a[href^="http://www.friendlyquacks.com/"], :root a[href^="https://www.financeads.net/tc.php?"], :root a[href^="http://www.friendlyduck.com/AF_"], :root a[href*="emprestimo.eu"], :root a[href^="https://content.oneindia.com/www/delivery/"], :root a[href^="http://www.fpcTraffic2.com/blind/in.cgi?"], :root a[href^="http://www.fleshlight.com/"], :root a[href^="http://www.flashx.tv/downloadthis"], :root div[class^="SponsoredAds"], :root .trc_rbox_div a[target="_blank"][href^="http://tab"], :root a[href^="https://americafirstpolls.com/"], :root a[href^="http://clickserv.sitescout.com/"], :root a[href^="http://www.firstload.de/affiliate/"], :root a[href^="http://www.twinplan.com/AF_"], :root a[href^="http://www.fducks.com/"], :root a[href^="http://www.epicgameads.com/"], :root a[href^="http://www.easydownloadnow.com/"], :root a[href^="http://www.duckssolutions.com/"], :root a[href^="https://go.trkclick2.com/"], :root a[href^="http://www.duckcash.eu/"], :root a[href^="http://go.seomojo.com/tracking202/"], :root a[href^="http://www.downloadweb.org/"], :root a[href^="http://www.down1oads.com/"], :root a[href^="https://trafficmedia.center/"], :root a[href^="http://www.dealcent.com/register.php?affid="], :root .rscontainer > .ellip, :root a[href^="http://www.clkads.com/adServe/"], :root a[href^="http://www.clickansave.net/"], :root div[class^="adpubs-"], :root a[href*="deliver.trafficfabrik.com"], :root a[href^="http://www.cash-duck.com/"], :root a[href^="http://www.bitlord.me/share/"], :root div[class^="Directory__footerAds"], :root a[href^="http://www.bet365.com/"][href*="?affiliate="], :root a[href^="http://www.bet365.com/"][href*="&affiliate="], :root a[href^="http://www.badoink.com/go.php?"], :root div[data-ad-underplayer], :root #mbEnd[cellspacing="0"][cellpadding="0"], :root a[href^="http://www.richducks.com/"], :root a[href^="http://www.babylon.com/welcome/index?affID"], :root a[href^="http://www.sexgangsters.com/?pid="], :root a[href^="http://www.amazon.co.uk/exec/obidos/external-search?"], :root a[href^="https://ads-for-free.com/click.php?"], :root a[href^="http://www.socialsex.com/"], :root a[href^="https://www.camsoda.com/enter.php?id="], :root a[href^="http://go.ad2up.com/"], :root a[href^="https://badoinkvr.com/"], :root a[href*="/adServe/banners?"], :root a[href^="http://www.adxpansion.com"], :root .plistaList > .itemLinkPET, :root a[href^="http://www.adbrite.com/mb/commerce/purchase_form.php?"], :root a[href^="http://www.adultdvdempire.com/?partner_id="][href*="&utm_"], :root a[href^="http://www.ragazzeinvendita.com/?rcid="], :root a[href^="http://www.TwinPlan.com/AF_"], :root div[class^="adbanner_"], :root a[href^="http://www.brightwheel.info/"], :root a[href^="https://www.iclwy.xyz/"], :root a[href^="http://www.123-reg.co.uk/affiliate2.cgi"], :root div[itemtype="http://www.schema.org/WPAdBlock"], :root a[href^="http://wopertific.info/"], :root a[href^="http://bodelen.com/"], :root a[href^="http://wgpartner.com/"], :root div[class^="Ad__adContainer"], :root a[href^="http://web.adblade.com/"], :root div[class^="BlockAdvert-"], :root a[href^="https://go.onclasrv.com/"], :root a[href^="http://wct.link/"], :root a[href^="https://topoffers.com/"][href*="/?pid="], :root a[href^="http://vinfdv6b4j.com/"], :root a[href^="http://s9kkremkr0.com/"], :root a[href^="https://www.nutaku.net/signup/landing/"], :root a[href^="http://us.marketgid.com"], :root a[href^="http://ul.to/ref/"], :root a[href^="http://ucam.xxx/?utm_"], :root a[href^="https://adsrv4k.com/"], :root a[href^="http://trk.mdrtrck.com/"], :root a[href^="http://traffic.tc-clicks.com/"], :root div[class^="awpcp-random-ads"], :root a[href^="http://www.graboid.com/affiliates/"], :root a[href^="http://tracking.toroadvertising.com/"], :root a[href^="http://www.liutilities.com/"], :root a[href^="http://www.dl-provider.com/search/"], :root a[href^="http://tc.tradetracker.net/"] > img, :root a[href^="http://tracking.deltamediallc.com/"], :root a[href^="http://track.adform.net/"], :root a[href^="http://tour.affbuzzads.com/"], :root a[href^="https://iac.ampxdirect.com/"], :root a[href^="http://t.mdn2015x3.com/"], :root a[href^="http://galleries.securewebsiteaccess.com/"], :root a[href^="http://stateresolver.link/"], :root a[href^="http://sharesuper.info/"], :root a[href^="https://awecrptjmp.com/"], :root a[href^="http://server.cpmstar.com/click.aspx?poolid="], :root a[href^="http://www.downloadthesefiles.com/"], :root a[href^="http://secure.cbdpure.com/aff/"], :root aside[id^="advads_ad_widget-"], :root a[href^="http://lp.ezdownloadpro.info/"], :root a[href^="http://uploaded.net/ref/"], :root a[href^="http://t.mdn2015x1.com/"], :root a[href^="http://azmobilestore.co/"], :root a[href^="http://s5prou7ulr.com/"], :root a[href^="https://affiliates.bet-at-home.com/processing/"], :root a[href^="https://ads.ad4game.com/"], :root a[href^="https://betway.com/"][href*="&a="], :root div[class*="-storyBodyAd-"], :root a[href^="https://easygamepromo.com/ef/custom_affiliate/"], :root [href^="https://get-download.club/"], :root a[href^="http://record.betsafe.com/"], :root a[href^="https://keep2share.cc/pr/"], :root a[href^="https://clixtrac.com/"], :root [onclick*="content.ad/"], :root a[href^="http://adlev.neodatagroup.com/"], :root a[href^="http://reallygoodlink.extremefreegames.com/"], :root a[href^="http://promos.bwin.com/"], :root a[href*=".irtyc.com/"], :root a[href^="http://z1.zedo.com/"], :root a[href^="http://pokershibes.com/index.php?ref="], :root a[href^="https://dltags.com/"], :root a[href^="http://onclickads.net/"], :root a[href^="http://mmo123.co/"], :root a[href^="https://www.oboom.com/ref/"], :root a[href^="http://media.paddypower.com/redirect.aspx?"], :root a[href^="http://allaptair.club/"], :root .section-result[data-result-ad-type], :root a[href^="https://deliver.ptgncdn.com/"], :root a[href^="http://latestdownloads.net/download.php?"], :root a[href^="http://k2s.cc/code/"], :root #topstuff > #tads, :root a[href*=".bang.com/"][href*="&aff="], :root a[data-widget-outbrain-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://join3.bannedsextapes.com/track/"], :root a[href^="https://gamescarousel.com/"], :root a[href^="http://istri.it/?"], :root a[href^="//awejmp.com/"], :root a[href^="http://mob1ledev1ces.com/"], :root a[href^="http://www.fbooksluts.com/"], :root a[href^="http://www.cdjapan.co.jp/aff/click.cgi/"], :root a[href^="//api.ad-goi.com/"], :root a[href*="//ridingintractable.com/"], :root a[href^="http://intent.bingads.com/"], :root div[id^="crt-"][style], :root a[href^="http://igromir.info/"], :root a[href^="https://track.themadtrcker.com/"], :root a[href^="http://hyperlinksecure.com/go/"], :root a[href^="https://intrev.co/"], :root a[href^="http://https://www.get-express-vpn.com/offer/"], :root .ob_container .item-container-obpd, :root a[href^="http://websitedhoome.com/"], :root a[href^="http://www.adskeeper.co.uk/"], :root a[href^="https://clickadilla.com/"], :root a[href^="http://www.gfrevenge.com/landing/"], :root a[href^="http://45eijvhgj2.com/"], :root a[href^="http://hpn.houzz.com/"], :root a[href^="http://searchtabnew.com/"], :root a[href*="?adlivk="][href*="&refer="], :root a[href^="//look.djfiln.com/"], :root a[href^="http://greensmoke.com/"], :root a[href^="//5e1fcb75b6d662d.com/"], :root a[href^="http://googleads.g.doubleclick.net/pcs/click"], :root a[href^="https://bnsjb1ab1e.com/"], :root a[href^="http://mo8mwxi1.com/"], :root div[class^="ResponsiveAd-"], :root a[href^="http://install.securewebsiteaccess.com/"], :root a[href^="http://www.revenuehits.com/"], :root a[href^="https://mcdlks.com/"], :root a[href^="https://bs.serving-sys.com"], :root .__y_elastic .__y_item, :root a[href^="http://go.mobisla.com/"], :root a[href^="//srv.buysellads.com/"], :root a[href^="http://g1.v.fwmrm.net/ad/"], :root .widget-pane-section-result[data-result-ad-type], :root a[href^="http://imads.integral-marketing.com/"], :root a[href^="http://freesoftwarelive.com/"], :root a[href^="http://adtrackone.eu/"], :root a[href^="http://finaljuyu.com/"], :root a[href^="http://fileloadr.com/"], :root a[href^="http://extra.bet365.com/"][href*="?affiliate="], :root a[href^="http://ethfw0370q.com/"], :root [id^="bunyad_ads_"], :root a[href^="http://elitefuckbook.com/"], :root a[href^="http://eclkmpsa.com/"], :root a[href*="//3wr110.xyz/"], :root a[href^="http://earandmarketing.com/"], :root a[href^="https://www.mypornstarcams.com/landing/click/"], :root [href^="https://maskip.co/"], :root a[href^="http://getlinksinaseconds.com/"], :root a[href*=".mfroute.com/"], :root #content > #center > .dose > .dosesingle, :root a[href^="http://campaign.bharatmatrimony.com/track/"], :root a[href^="http://d2.zedo.com/"], :root a[href^="http://keep2share.cc/pr/"], :root a[href^="http://cp.cbbp1.com"], :root a[href^="http://contractallsticker.net/"], :root a[href^="http://codec.codecm.com/"], :root a[href^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.downloadplayer1.com/"], :root a[href^="http://clicks.binarypromos.com/"], :root iframe[name^="google_ads_iframe"], :root div[class^="largeRectangleAd_"], :root a[href^="https://dediseedbox.com/clients/aff.php?"], :root a[href^="http://www.wantstraffic.com/"], :root a[href^="http://databass.info/"], :root a[href^="http://www.urmediazone.com/signup"], :root a[href^="http://click.plista.com/pets"], :root a[href^="http://chaturbate.com/affiliates/"], :root a[href^="http://www.firstload.com/affiliate/"], :root a[href^="http://www.friendlyadvertisements.com/"], :root a[href^="//00ae8b5a9c1d597.com/"], :root a[href^="http://cdn3.adbrau.com/"], :root a[href^="http://amzn.to/"] > img[src^="data"], :root a[href^="http://bs.serving-sys.com/"], :root a[href^="http://cpaway.afftrack.com/"], :root a[href^="http://cdn.adsrvmedia.net/"], :root [lazy-ad="top_banner"], :root a[href^="http://360ads.go2cloud.org/"], :root a[href^="http://dftrck.com/"], :root a[href^="http://casino-x.com/?partner"], :root a[href^="http://record.sportsbetaffiliates.com.au/"], :root a[href^="http://campeeks.com/"][href*="&utm_"], :root #flowplayer > div[style="position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px; z-index: 999;"], :root a[href^="http://download-performance.com/"], :root a[href^="http://www.on2url.com/app/adtrack.asp"], :root #\5f _nq__hh[style="display:block!important"], :root a[href^="http://campaign.bharatmatrimony.com/cbstrack/"], :root a[href^="http://xads.zedo.com/"], :root a[href^="http://www.affiliates1128.com/processing/"], :root a[href^="http://c.jumia.io/"], :root a[href^="https://bullads.net/get/"], :root a[href^="http://yads.zedo.com/"], :root a[href^="http://down1oads.com/"], :root a[href^="http://buysellads.com/"], :root a[href^="https://uncensored.game/"], :root td[valign="top"] > .mainmenu[style="padding:10px 0 0 0 !important;"], :root a[href^="http://feedads.g.doubleclick.net/"], :root a[href^="http://betahit.click/"], :root a[href^="https://torguard.net/aff.php"] > img, :root a[href^="http://bestorican.com/"], :root a[href^="http://bcp.crwdcntrl.net/"], :root a[href^="http://bc.vc/?r="], :root a[href^="http://banners.victor.com/processing/"], :root a[href^="http://affiliate.glbtracker.com/"], :root a[href^="https://transfer.xe.com/signup/track/redirect?"], :root a[href^="http://anonymous-net.com/"], :root a[href^="https://www.dsct1.com/"], :root a[data-oburl^="https://paid.outbrain.com/network/redir?"], :root .icons-rss-feed + .icons-rss-feed div[class$="_item"], :root a[href^="http://aflrm.com/"], :root a[href^="http://affiliates.pinnaclesports.com/processing/"], :root a[href^="http://partner.sbaffiliates.com/"], :root a[href^="http://affiliate.coral.co.uk/processing/"], :root a[href^="http://aff.ironsocket.com/"], :root a[href^="http://adsrv.keycaptcha.com"], :root a[href^="https://zononi.com/"], :root a[href^="http://adserving.unibet.com/"], :root a[href^="https://secure.adnxs.com/clktrb?"], :root a[href^="http://adserver.adtechus.com/"], :root a[href^="http://adserver.adreactor.com/"], :root a[href^="http://www.yourfuckbook.com/?"], :root a[href^="//go.onclasrv.com/"], :root .GHOFUQ5BG2 > .GHOFUQ5BF2 > .GHOFUQ5BG5, :root #\5f _mom_ad_2, :root a[href^="http://ads.sprintrade.com/"], :root a[href^="https://www.mrskin.com/tour"], :root a[href^="http://adserver.adtech.de/"], :root a[href^="http://cwcams.com/landing/click/"], :root a[href^="http://ads.betfair.com/redirect.aspx?"], :root a[href^="http://ads.affbuzzads.com/"], :root a[href^="//mob1ledev1ces.com/"], :root a[href^="http://online.ladbrokes.com/promoRedirect?"], :root a[href^="http://go.trafficshop.com/"], :root a[href^="http://ads.ad-center.com/"], :root a[href^="https://horny-pussies.com/tds"], :root a[href^="http://adfarm.mediaplex.com/"], :root a[href^="http://ad.doubleclick.net/"], :root a[href^="https://k2s.cc/pr/"], :root a[href^="http://ad.au.doubleclick.net/"], :root a[href^="http://a63t9o1azf.com/"], :root a[href^="http://srvpub.com/"], :root a[href^="http://a.adquantix.com/"], :root a[href^="http://NowDownloadAll.com"], :root a[href^="http://adtrack123.pl/"], :root a[href^="http://9amq5z4y1y.com/"], :root a[href^="http://4c7og3qcob.com/"], :root a[href^="//go.vedohd.org/"], :root a[href^="http://www.ducksnetwork.com/"], :root a[href^="http://3wr110.net/"], :root a[href^="https://track.trkinator.com/"], :root a[href^="//ads.ad-center.com/"], :root a[href^="http://1phads.com/"], :root a[href^="//zenhppyad.com/"], :root a[href^="//www.pd-news.com/"], :root [href*=".doubleclick-net.com"], :root a[href^="//www.mgid.com/"], :root a[href^="http://lp.ncdownloader.com/"], :root a[href^="//pubads.g.doubleclick.net/"], :root a[href^="http://refer.webhostingbuzz.com/"], :root a[href^="http://pwrads.net/"], :root a[href^="//oardilin.com/"], :root div[id^="ad-gpt-"], :root a[href^="http://pan.adraccoon.com?"], :root a[href^="https://ilovemyfreedoms.com/"][href*="?affiliate_id="], :root a[href^="//healthaffiliate.center/"], :root .l-container > #fishtank, :root a[href^="https://www.oboom.com/ad/"], :root a[href^="//4f6b2af479d337cf.com/"], :root a[href^="http://n217adserv.com/"], :root a[href^="//4c7og3qcob.com/"], :root a[href^="https://www.arthrozene.com/"][href*="?tid="], :root a[href^="https://awejmp.com/"], :root [href*="//go2page.net"], :root a[href^=" http://www.sex.com/"][href*="&utm_"], :root a[href^="https://fileboom.me/pr/"], :root a[href^="http://marketgid.com"], :root .GPMV2XEDA2 > .GPMV2XEDP1 > .GPMV2XEDJBB, :root a[href*="onclkds."], :root div[id^="ad-position-"], :root a[data-redirect^="this.href='http://paid.outbrain.com/network/redir?"], :root a[href^="http://liversely.com/"], :root a[href*="=exoclick"], :root div[class^="backfill-taboola-home-slot-"], :root a[href*="=adscript"], :root #mn #center_col > div > h2.spon:first-child, :root a[href*="//bongacams5.com/track?"], :root FBS-AD, :root a[href*="5iclx7wa4q.com"], :root a[href^="http://refpaano.host/"], :root a[href*="/cmd.php?ad="], :root a[href^="https://www.adxtro.com/"], :root a[href*="delivery.trafficfabrik.com"], :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > div > .vci, :root #center_col > #resultStats + #tads + #res + #tads, :root a[href*="//bongacams2.com/track?"], :root a[href*=".udncoeln.com/"], :root a[href*=".qertewrt.com/"], :root a[target="_blank"][href^="http://api.taboola.com/"], :root a[href*=".smartadserver.com"], :root #ads > .dose > .dosesingle, :root a[href*=".revimedia.com/"], :root .__ywvr .__y_item, :root a[href^="https://farm.plista.com/pets"], :root a[href*=".red90121.com/"], :root a[href^="https://playuhd.host/"], :root .mw > #rcnt > #center_col > #taw > #tvcap > .c, :root a[href*=".purple6401.com/"], :root a[href^="http://www.greenmangaming.com/?tap_a="], :root a[href*=".opskln.com/"], :root a[href^="http://adrunnr.com/"], :root div[id^="div_ad_stack_"], :root a[href*=".ichlnk.com/"], :root a[href^="http://secure.hostgator.com/~affiliat/"], :root [onclick^="window.open('http://adultfriendfinder.com/search/"], :root .mod > .gws-local-promotions__border, :root a[href^="https://deliver.tf2www.com/"], :root a[href^="http://spygasm.com/track?"], :root .ob_dual_right > .ob_ads_header ~ .odb_div, :root a[href*=".adk2x.com/"], :root a[href^="http://data.committeemenencyclopedicrepertory.info/"], :root a[href*=".allsports4you.club"], :root #MAIN.ShowTopic > .ad, :root a[href^="https://porngames.adult/?SID="], :root a[href^="http://findersocket.com/"], :root a[href^="https://m.do.co/c/"] > img, :root #tads + div + .c, :root a[href^="//jsmptjmp.com/"], :root #ssmiwdiv[jsdisplay], :root a[href*=".adform.net/"], :root a[href^="http://duckcash.eu/"], :root a[href^="http://www.mobileandinternetadvertising.com/"], :root .GB3L-QEDGY .GB3L-QEDF- > .GB3L-QEDE-, :root a[data-url^="http://paid.outbrain.com/network/redir?"] + .author, :root a[href^="http://liversely.net/"], :root .ra[width="30%"][align="right"] + table[width="70%"][cellpadding="0"], :root a[href^="http://www.coiwqe.site/"], :root iframe[id^="google_ads_frame"], :root a[href^="http://www.bluehost.com/track/"] > img, :root a[data-url^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://play4k.co/"], :root a[data-redirect^="https://paid.outbrain.com/network/redir?"], :root a[href^="http://n.admagnet.net/"], :root a[href^="http://bestchickshere.com/"], :root a[href^="http://www.getyourguide.com/?partner_id="], :root [onclick^="window.open('https://www.brazzersnetwork.com/landing/"], :root a[href*=".adsrv.eacdn.com/"] > img, :root a[href^="http://mgid.com/"], :root a[href*="a2g-secure.com"], :root #resultspanel > #topads, :root a[href^="http://espn.zlbu.net/"], :root a[href^="https://vod09197d7.club/"], :root a[href^="http://k2s.cc/pr/"], :root a[href^="http://9nl.es/"], :root #assetsListings[style="display: block;"], :root [onclick^="window.open('window.open('//delivery.trafficfabrik.com/"], :root a[href^=" http://n47adshostnet.com/"], :root [id*="MarketGid"], :root a[data-oburl^="http://paid.outbrain.com/network/redir?"], :root a[href^="http://refpa.top/"], :root a[href*="//bongacams.com/track?"], :root a[href^="https://servedbyadbutler.com/"], :root a[href^="https://mob1ledev1ces.com/"], :root a[data-redirect^="http://paid.outbrain.com/network/redir?"], :root a[href^="https://explore.findanswersnow.net/"], :root [id^="adframe_wrap_"], :root a[href^="http://c.ketads.com/"], :root a[href^="http://6kup12tgxx.com/"], :root a[target="_blank"][onmousedown="this.href^='http://paid.outbrain.com/network/redir?"], :root a[href*=".fwd28.com/"], :root [lazy-ad="leftbottom_banner"], :root p[id^="div-gpt-ad-"], :root a[href^="http://fsoft4down.com/"], :root a[href*="ad2upapp.com/"], :root a[href^="http://see-work.info/"], :root a[href*="/adrotate-out.php?"], :root #atvcap + #tvcap > .mnr-c > .commercial-unit-mobile-top, :root .inlineNewsletterSubscription + .inlineNewsletterSubscription div[class$="_item"], :root a[href*=".orange2258.com/"], :root #taw > .med + div > #tvcap > .mnr-c:not(.qs-ic) > .commercial-unit-mobile-top, :root .plista_widget_belowArticleRelaunch_item[data-type="pet"], :root a[href*="get-express-vpn.xyz"], :root a[href*=".intab.fun/"], :root [href*="//etracking.pro"], :root a[href^="http://www.fonts.com/BannerScript/"], :root a[href^="https://goraps.com/"], :root .gbfwa > div[class$="_item"], :root [href^="http://www.xiloy.site/"], :root a[href^="https://www.passeura.com/"], :root a[href^="http://www.pinkvisualpad.com/?revid="], :root a[href^="https://www.friendlyduck.com/AF_"], :root [href^="http://advertisesimple.info/"], :root a[href^="https://www.brazzersnetwork.com/landing/"], :root #cnt #center_col > #taw > #tvcap > .c._oc._Lp, :root [href*="//xml.revrtb.com/"], :root [href*="//trackout.business"], :root #rhs_block .mod > .luhb-div > div[data-async-type="updateHotelBookingModule"], :root a[href^="http://adclick.g.doubleclick.net/"], :root [href*="//mclick.net"], :root a[href^=" http://ads.ad-center.com/"], :root .trc_rbox_div .syndicatedItem, :root .commercial-unit-desktop-rhs > .iKidV > .Ee92ae + .P2mpm + .hp3sk, :root .commercial-unit-mobile-top .jackpot-main-content-container > .UpgKEd + .nZZLFc > .vci, :root a[href^="http://www.installads.net/"], :root div[role="navigation"] + c-wiz > div > .kxhcC, :root a[href^="http://www.download-provider.org/"], :root [href*="//doubleclick-net.com"], :root a[href^="http://webtrackerplus.com/"], :root a[href^="https://ad13.adfarm1.adition.com/"], :root a[href^="http://clickandjoinyourgirl.com/"], :root div[itemtype="http://schema.org/WPAdBlock"], :root a[href^="https://www.nudeidols.com/cams/"], :root #center_col > #res > #topstuff + #search > div > #ires > #rso > #flun, :root [href*=".trackout.business"], :root [href*=".etracking.pro"], :root a[href^="http://get.slickvpn.com/"], :root [data-ad-module], :root [href*=".go2page.net"], :root a[href^="http://hd-plugins.com/download/"], :root a[href^="//voyeurhit.com/cs/"], :root a[href^="http://www.afgr3.com/"], :root [ad-id^="googlead"], :root .ra[align="left"][width="30%"], :root a[href^="https://trackjs.com/?utm_source"], :root AFS-AD, :root #main-content > [style="padding:10px 0 0 0 !important;"], :root #center_col > #resultStats + div[style="border:1px solid #dedede;margin-bottom:11px;padding:5px 7px 5px 6px"], :root div[class^="lifeOnwerAd"], :root a[href$="/vghd.shtml"], :root a[href^="https://redirect.ero-advertising.com/"], :root #center_col > #main > .dfrd > .mnr-c > .c._oc._zs, :root div[data-subscript="Advertising"], :root div[class$="dealnews"] > .dealnews, :root a[href^="http://t.mdn2015x2.com/"], :root a[href^="http://b.bestcompleteusa.info/"], :root .trc_rbox_div .syndicatedItemUB, :root a[href^="http://deloplen.com/afu.php?zoneid="], :root a[href^="//db52cc91beabf7e8.com/"], :root [id*="ScriptRoot"], :root a[href*=".clksite.com/"], :root a[href^="http://www.webtrackerplus.com/"], :root .GJJKPX2N1 > .GJJKPX2M1 > .GJJKPX2P4, :root .vi-lb-placeholder[title="ADVERTISEMENT"], :root a[href^="http://goldmoney.com/?gmrefcode="], :root a[href^="http://papi.mynativeplatform.com:80/pub2/"], :root LEADERBOARD-AD, :root #mn #center_col > div > h2.spon:first-child + ol:last-child, :root #center_col > #taw > #tvcap > .commercial-unit-desktop-top, :root .plistaList > .plista_widget_underArticle_item[data-type="pet"], :root a[href^="http://servicegetbook.net/"], :root #rhs_block > #mbEnd, :root a[href^="http://cinema.friendscout24.de?"], :root [lazy-ad="lefttop_banner"], :root a[href^="http://www.mrskin.com/tour"], :root .jobs-information-call-to-action + .jobs-information-call-to-action div[class$="_item"], :root a[href^="https://www.incredimail.com/?id"], :root a[href^="http://api.content.ad/"], :root a[href^="http://adtransfer.net/"], :root a[href*=".clkcln.com/"], :root a[href^="http://www.uniblue.com/cm/"], :root a[href^="http://landingpagegenius.com/"], :root a[data-redirect^="http://click.plista.com/pets"], :root #rhs_block > script + .c._oc._Ve.rhsvw, :root #\5f _mom_ad_12, :root .__zinit .__y_item, :root .ch[onclick="ga(this,event)"], :root .__ywl .__y_item, :root a[href^="http://track.trkvluum.com/"], :root a[href^="http://linksnappy.com/?ref="], :root [src^="/Redirect.a2b?"], :root #center_col > #resultStats + #tads, :root .__yinit .__y_item, :root #center_col > div[style="font-size:14px;margin-right:0;min-height:5px"] > div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff8e7"], :root a[href^="https://secure.cbdpure.com/aff/"], :root AMP-AD, :root iframe[src*="mellowads.com"], :root .__y_inner > .__y_item, :root #cnt #center_col > #res > #topstuff > .ts, :root a[href^="https://landing.brazzersnetwork.com/"], :root .rc-cta[data-target], :root a[href*="//promo-bc.com/track?"], :root a[href^="http://www.firstclass-download.com/"], :root a[href*=".trust.zone"], :root .GFYY1SVD2 > .GFYY1SVC2 > .GFYY1SVF5, :root div[class^="AdEmbeded__AddWrapper"], :root a[href^="http://affiliates.score-affiliates.com/"], :root a[href^="https://a.adtng.com/"], :root #rhswrapper > #rhssection[border="0"][bgcolor="#ffffff"], :root .Mpopup + #Mad > #MadZone, :root a[href^="http://ads.expekt.com/affiliates/"], :root a[href^="http://www.streamtunerhd.com/signup?"], :root #center_col > #\5f Emc, :root a[href^="http://click.payserve.com/"], :root a[href^="http://serve.williamhill.com/promoRedirect?"], :root a[href*=".cfm?fp="][href*="&prvtof="], :root [href*=".mclick.net"], :root #center_col > #taw > #tvcap > .cu-container > .commercial-unit-desktop-top, :root div[class^="advertisement-desktop"], :root a[href^="http://ads2.williamhill.com/redirect.aspx?"], :root a[href^="https://www.spyoff.com/"], :root AD-TRIPLE-BOX, :root a[href^="http://www.menaon.com/installs/"], :root a[href^="http://taboola-"][href*="/redirect.php?app.type="], :root .mw > #rcnt > #center_col > #taw > .c, :root #rhs_block > .ts[cellspacing="0"][cellpadding="0"][style="padding:0"], :root #header + #content > #left > #rlblock_left, :root a[href^="http://www.seekbang.com/cs/"], :root a[href^="http://syndication.exoclick.com/"], :root a[href^="http://bluehost.com/track/"], :root a[href^="https://squren.com/rotator/?atomid="], :root a[href^="//40ceexln7929.com/"], :root #center_col > #resultStats + div + #res + #tads, :root .nrelate .nr_partner, :root a[href^="http://www.afgr2.com/"], :root #mn div[style="position:relative"] > #center_col > ._Ak, :root a[href^="https://adclick.g.doubleclick.net/"], :root a[href^="//medleyads.com/spot/"], :root a[href*="mfroute.com/"], :root a[href^="//z6naousb.com/"], :root div[id^="ad_bigbox_"], :root #content > #right > .dose > .dosesingle, :root #rhs_block > ol > .rhsvw > .kp-blk > .xpdopen > ._OKe > ol > ._DJe > .luhb-div, :root a[href^="http://tezfiles.com/pr/"], :root a[href^="http://t.wowtrk.com/"], :root div[id^="adspot-"], :root #\5f _admvnlb_modal_container, :root #center_col > #taw > #tvcap > .rscontainer, :root div[id^="drudge-column-ads-"], :root a[href^="http://tour.mrskin.com/"], :root #main_col > #center_col div[style="font-size:14px;margin:0 4px;padding:1px 5px;background:#fff7ed"], :root a[href^="https://track.totalav.com/"], :root a[href^="https://is.ltroute.com/"], :root a[href^="http://www.incredimail.com/?id"], :root a[href^="http://ad-apac.doubleclick.net/"], :root a[data-nvp*="'trafficUrl':'https://paid.outbrain.com/network/redir?"], :root a[href^="http://www.sex.com/pics/?utm_"], :root a[href^="http://vo2.qrlsx.com/"], :root a[href^="http://engine.newsmaxfeednetwork.com/"], :root a[href^="http://ad.yieldmanager.com/"], :root a[href^="http://www.plus500.com/?id="], :root #flowplayer > div[style="z-index: 208; position: absolute; width: 300px; height: 275px; left: 222.5px; top: 85px;"], :root a[href^="https://giftsale.co.uk/?utm_"] { display: none !important; }</style><style type="text/css" title="css:fb.css.basecss:fb.css.dialog css:fb.css.iframewidget">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_dialog_advanced{border-radius:8px;padding:10px}.fb_dialog_content{background:#fff;color:#373737}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{left:5px;right:auto;top:5px}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{height:100%;left:0;margin:0;overflow:visible;position:absolute;top:-10000px;transform:none;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{background:none;height:auto;min-height:initial;min-width:initial;width:auto}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{clear:both;color:#fff;display:block;font-size:18px;padding-top:20px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .4);bottom:0;left:0;min-height:100%;position:absolute;right:0;top:0;width:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_mobile .fb_dialog_iframe{position:sticky;top:0}.fb_dialog_content .dialog_header{background:linear-gradient(from(#738aba), to(#2c4987));border-bottom:1px solid;border-color:#043b87;box-shadow:white 0 1px 1px -1px inset;color:#fff;font:bold 14px Helvetica, sans-serif;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:linear-gradient(from(#4267B2), to(#2a4887));background-clip:padding-box;border:1px solid #29487d;border-radius:3px;display:inline-block;line-height:18px;margin-top:3px;max-width:85px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{background:none;border:none;color:#fff;font:bold 12px Helvetica, sans-serif;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #4a4a4a;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f5f6f7;border:1px solid #4a4a4a;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-position:50% 50%;background-repeat:no-repeat;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}</style><meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Expires" content="0"><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/security.js"></script></head>
+
+<body class="page-template page-template-keyboard-connect page-template-keyboard-connect-php page page-id-20619 kc-css-system sfsi_2.58">
+
+
+    
+    
+
+    
+<div class="mobile-indicator"></div>
+<section class="entry-content">
+
+
+<div class="center">
+
+<!-- NON CHROME BROWSER HELLO -->
+<div class="no-midi" style="display: none;">
+  <h2>Welcome! Pianu works best with the latest version of Chrome. Just plug in and play!</h2>
+  <p><a href="https://www.google.com/intl/en/chrome/browser/desktop/index.html" target="_blank"><img src="/wp-content/uploads/2015/02/appicns-Chrome-icon.png" alt="appicns-Chrome-icon" height="60"><br>Download Chrome here!</a>
+  </p>
+  <p>You can also use Firefox and Safari, but a small plug-in is required.<br>It's quick and easy to install.</p>
+  <p><a class="other-browsers"><img src="/wp-content/uploads/2015/02/appicns_Firefox.png" alt="Firefox" height="60"><img src="/wp-content/uploads/2015/02/safari_5122x.png" alt="safari" height="60"><br>I want to use Firefox or Safari</a></p>
+
+  <div class="other-browsers-text">
+    <div class="half">
+      <h2><img src="/wp-content/uploads/2016/01/apple-icon.png" height="25"> Mac Users</h2>
+      <p><a class="button yellow-button" href="/wp-content/themes/pianu/jazzplugin/Jazz-Plugin-1-4.dmg">Download Plugin for Mac <img src="/wp-content/uploads/2016/01/download-icon.png" height="25" style="vertical-align:middle;"></a></p>
+      <p style="font-size:15px;line-height:1;">System Preferences -&gt; Security Settings -&gt; Allow Plugin</p>
+    </div>
+    <div class="half">
+      <h2><img src="/wp-content/uploads/2016/01/windows-icon.png" height="25" style="margin-right:5px;"> PC Users</h2>
+      <p><a class="button yellow-button" href="/wp-content/themes/pianu/jazzplugin/Jazz-Plugin-1-4.msi">Download Plugin for PC <img src="/wp-content/uploads/2016/01/download-icon.png" height="25" style="vertical-align:middle;"></a></p>
+    </div>
+    <p style="clear:both;"></p>
+    <p>Once you've installed the plugin, relaunch your browser, and return to this page.</p>
+    <p>You'll see a small pop-up like so:<br>
+      <img src="/wp-content/uploads/2016/01/allow-jazz-plugin-firefox.png" height="80"><br> Click "allow" and you're all set!</p>
+  </div>
+
+  <div class="border-bottom"></div>
+  <p><span class="button-wrap"><a href="/connecting-your-midi-keyboard"><img src="/wp-content/uploads/2016/01/usb-icon-bright-yellow.png" style="vertical-align: middle;height: 30px;width: auto;border: none;"> Not sure how to connect your keyboard to your computer?</a></span>
+  </p>
+
+</div>
+
+
+<!-- CHROME BUT NO KEYBOARD YET -->
+<div class="no-connection" style="display: none;">
+
+  <p>Plug in your keyboard and Pianu will detect it automatically.</p>
+
+  <div style="width: 300px;" class="border-bottom"></div>
+
+  <p><a class="still-no-connection">It's not connected - learn more</a></p>
+
+
+  <div class="still-no-connection-text">
+    <div class="wrap">
+
+    <div class="close">×</div>
+
+    <div class="first-section section">
+      <img class="float-right" src="/wp-content/uploads/2020/01/lady-playing-piano-min.png">
+      <h3>Easy Troubleshooting Steps</h3>
+      <h2>Relaunch your Browser</h2>
+      <p>This fixes most connection issues.<br>Simply quit/close your browser entirely, and relaunch Pianu. You should now be connected!</p>
+    </div>
+
+    <div class="second-section section">
+      <img class="float-left" src="/wp-content/uploads/2020/01/dude-playing-piano-min-1.png">
+      <h3>Does your keyboard need a Driver?</h3>
+      <p>Many MIDI keyboards - the popular Yamaha YPG-235 for instance - require a driver to first be installed on your computer to speak MIDI.</p>
+      <p>Drivers can be downloaded for free online, and are easy to install. Here are a couple resources that may help:</p>
+      <p>
+        <a href="http://download.yamaha.com/usb_midi/">Yamaha Keyboard Drivers</a>
+        <br><a href="http://www.m-audio.com/support/drivers">M-Audio Keyboard Drivers</a>
+      </p>
+      <p style="padding-bottom: 50px;">Your manufacturer's website is the best place to find your keyboards' corresponding driver (and google). Once installed, simply relaunch Pianu, and you'll be connected!</p>
+    </div>
+
+    <div class="third-section section">
+      
+      <h2>Chrome MIDI setting</h2>
+      <p>In Chrome, click the padlock in the URL bar, and make sure that "MIDI devices full control" is set to "always allow".</p>
+      <img style="width:100%;margin: 25px 0 75px;" src="/wp-content/uploads/2016/01/chrome-padlock.png" alt="chrome-padlock">
+
+      <h2>Computer Reboot</h2>
+      <p>A restart of your computer solves many driver issues that could have arisen during installation, and refreshes your operating system.</p>
+   
+    </div>
+
+    <div class="fourth-section section">
+      <h2>Verifying your keyboard</h2>
+      
+      <h3>Mac Users</h3>
+                  <img class="float-right" src="/wp-content/uploads/2016/01/midi-audio-set-up.png">
+      <p>Open up <strong>Audio MIDI Setup</strong> to see a visual representation of your MIDI connection.</p>
+      <p>Applications &gt; Utilities &gt; Audio MIDI Setup &gt; Window &gt; Show MIDI Setup</p>
+      <p>Click "Test Setup" and play a few keys to verify your keyboard is connecting to your Mac.</p>
+    </div>
+      
+    <div class="fifth-section section">
+      <h3>PC Users</h3>
+      <img class="float-right" src="wp-content/uploads/2016/01/pc-troubleshooting.png">
+      <p>We can verify your computer is recognizing your MIDI keyboard by going to the <strong>Device Manager</strong>.</p>
+      <p>Start &gt; Control Panel &gt; Device Manager</p>
+      <p>Your MIDI controller should show up in Universal Serial Bus Controllers <em>or</em> Sound, video and game controllers.</p>
+      <p>For further Windows MIDI diagnostic tools, <a href="http://www.musicrepo.com/testing-midi-device/">here is a helpful tutorial using MIDI-OX</a>.</p>
+    </div>
+
+    <div class="still-not-connected section">
+      <h2>Still not connected?<br>We want to help!</h2>
+      <p>Send us an email with the model of your keyboard,<br>and if you're using a mac or pc.</p>
+      <p><a class="button" href="mailto:help@pianu.com">help@pianu.com</a></p>
+
+    </div>
+
+    </div>
+  </div>
+
+  <p>
+    <a href="/connecting-your-midi-keyboard">How do I plug my keyboard into my computer?</a>
+  </p>
+</div>
+<!-- end of no connection -->
+
+
+
+<!-- CONNECTED -->
+<div class="connected" style="">
+
+  <div class="connected-keyboard">
+    
+    <p><span class="button yellow-button show-keyboard" href="/my-account">Show Piano Keys</span></p>
+  </div>
+</div>
+
+</div>
+</section>
+
+
+
+    <a href="https://pianu.com/intro/ode-to-joy" class="main-unlock-callout">
+    <h3>
+    learn how to play piano online        </h3>
+    <span class="button">Get Started</span>
+    </a>
+
+
+
+
+
+
+
+
+
+
+<div class="main-keyboard" style="display: block;">
+    <div class="keyC1 keyz" data-letter="1">
+    </div>
+    <div class="keyCS1 keyz black" data-letter="!">
+    </div>
+    <div class="keyD1 keyz" data-letter="2">
+    </div>
+    <div class="keyDS1 keyz black" data-letter="@">
+    </div>
+    <div class="keyE1 keyz" data-letter="3">
+    </div>
+    <div class="keyF1 keyz" data-letter="4">
+    </div>
+    <div class="keyFS1 keyz black" data-letter="$">
+    </div>
+    <div class="keyG1 keyz" data-letter="5">
+    </div>
+    <div class="keyGS1 keyz black" data-letter="%">
+    </div>
+    <div class="keyA1 keyz" data-letter="6">
+    </div>
+    <div class="keyAS1 keyz black" data-letter="^">
+    </div>
+    <div class="keyB1 keyz" data-letter="7">
+    </div>
+    <div class="keyC2 keyz loaded" data-letter="8" style="display: block;">
+    </div>
+    <div class="keyCS2 keyz black loaded" data-letter="*" style="display: block;">
+    </div>
+    <div class="keyD2 keyz loaded" data-letter="9" style="display: block;">
+    </div>
+    <div class="keyDS2 keyz black loaded" data-letter="(" style="display: block;">
+    </div>
+    <div class="keyE2 keyz loaded" data-letter="0" style="display: block;">
+    </div>
+    <div class="keyF2 keyz loaded" data-letter="q" style="display: block;">
+    </div>
+    <div class="keyFS2 keyz black loaded" data-letter="Q" style="display: block;">
+    </div>
+    <div class="keyG2 keyz loaded" data-letter="w" style="display: block;">
+    </div>
+    <div class="keyGS2 keyz black loaded" data-letter="W" style="display: block;">
+    </div>
+    <div class="keyA2 keyz loaded" data-letter="e" style="display: block;">
+    </div>
+    <div class="keyAS2 keyz black loaded" data-letter="E" style="display: block;">
+    </div>
+    <div class="keyB2 keyz loaded" data-letter="r" style="display: block;">
+    </div>
+    <div class="keyC3 keyz loaded" data-letter="t" style="display: block;">
+    </div>
+    <div class="keyCS3 keyz black loaded" data-letter="T" style="display: block;">
+    </div>
+    <div class="keyD3 keyz loaded" data-letter="y" style="display: block;">
+    </div>
+    <div class="keyDS3 keyz black loaded" data-letter="Y" style="display: block;">
+    </div>
+    <div class="keyE3 keyz loaded" data-letter="u" style="display: block;">
+    </div>
+    <div class="keyF3 keyz loaded pressed" data-letter="i" style="display: block;">
+    </div>
+    <div class="keyFS3 keyz black loaded" data-letter="I" style="display: block;">
+    </div>
+    <div class="keyG3 keyz loaded" data-letter="o" style="display: block;">
+    </div>
+    <div class="keyGS3 keyz black loaded" data-letter="O" style="display: block;">
+    </div>
+    <div class="keyA3 keyz loaded" data-letter="p" style="display: block;">
+    </div>
+    <div class="keyAS3 keyz black loaded" data-letter="P" style="display: block;">
+    </div>
+    <div class="keyB3 keyz loaded" data-letter="a" style="display: block;">
+    </div>
+    <div class="keyC4 keyz loaded" data-letter="s" style="display: block;">
+    </div>
+    <div class="keyCS4 keyz black loaded" data-letter="S" style="display: block;">
+    </div>
+    <div class="keyD4 keyz loaded" data-letter="d" style="display: block;">
+    </div>
+    <div class="keyDS4 keyz black loaded" data-letter="D" style="display: block;">
+    </div>
+    <div class="keyE4 keyz loaded" data-letter="f" style="display: block;">
+    </div>
+    <div class="keyF4 keyz loaded" data-letter="g" style="display: block;">
+    </div>
+    <div class="keyFS4 keyz black loaded" data-letter="G" style="display: block;">
+    </div>
+    <div class="keyG4 keyz loaded" data-letter="h" style="display: block;">
+    </div>
+    <div class="keyGS4 keyz black loaded" data-letter="H" style="display: block;">
+    </div>
+    <div class="keyA4 keyz loaded" data-letter="j" style="display: block;">
+    </div>
+    <div class="keyAS4 keyz black loaded" data-letter="J" style="display: block;">
+    </div>
+    <div class="keyB4 keyz loaded" data-letter="k" style="display: block;">
+    </div>
+    <div class="keyC5 keyz loaded" data-letter="l" style="display: block;">
+    </div>
+    <div class="keyCS5 keyz black loaded" data-letter="L" style="display: block;">
+    </div>
+    <div class="keyD5 keyz loaded" data-letter="z" style="display: block;">
+    </div>
+    <div class="keyDS5 keyz black loaded" data-letter="Z" style="display: block;">
+    </div>
+    <div class="keyE5 keyz loaded" data-letter="x" style="display: block;">
+    </div>
+    <div class="keyF5 keyz loaded" data-letter="c" style="display: block;">
+    </div>
+    <div class="keyFS5 keyz black loaded" data-letter="C" style="display: block;">
+    </div>
+    <div class="keyG5 keyz loaded" data-letter="v" style="display: block;">
+    </div>
+    <div class="keyGS5 keyz black loaded" data-letter="V" style="display: block;">
+    </div>
+    <div class="keyA5 keyz loaded" data-letter="b" style="display: block;">
+    </div>
+    <div class="keyAS5 keyz black loaded" data-letter="B" style="display: block;">
+    </div>
+    <div class="keyB5 keyz loaded" data-letter="n" style="display: block;">
+    </div>
+    <div class="keyC6 keyz loaded" data-letter="m" style="display: block;">
+    </div>
+    <div class="keyCS6 keyz black end">
+    </div>
+    <div class="keyD6 keyz">
+    </div>
+    <div class="keyDS6 keyz black">
+    </div>
+    <div class="keyE6 keyz">
+    </div>
+    <div class="keyF6 keyz">
+    </div>
+    <div class="keyFS6 keyz black">
+    </div>
+    <div class="keyG6 keyz">
+    </div>
+    <div class="keyGS6 keyz black">
+    </div>
+    <div class="keyA6 keyz">
+    </div>
+    <div class="keyAS6 keyz black">
+    </div>
+    <div class="keyB6 keyz">
+    </div>
+    <div class="keyC7 keyz">
+    </div>
+    <div class="keyCS7 keyz black">
+    </div>
+    <div class="keyD7 keyz">
+    </div>
+    <div class="keyDS7 keyz black">
+    </div>
+    <div class="keyE7 keyz">
+    </div>
+    <div class="keyF7 keyz">
+    </div>
+    <div class="keyFS7 keyz black">
+    </div>
+    <div class="keyG7 keyz">
+    </div>
+</div>
+<div class="lip"></div>
+
+
+
+
+
+
+
+<!-- SOUND EFFECTS -->
+
+<!-- GLOBAL FX --> 
+<div class="air-pop ui-global"></div>
+<div class="link-click ui-global"></div>
+<div class="open-close ui-global"></div>
+<script type="text/javascript" src="https://pianu.com/wp-content/themes/pianu/js/minimal-sound-fx.js"></script> 
+
+<!-- SONGS/LESSONS FX --> 
+
+<!-- end of sound effects -->
+
+
+
+
+<!-- START OF SCRIPTS -->
+
+
+
+
+<!-- Load Waypoints.js for lessons pages -->
+
+
+<!-- PAGE SCRIPT FILE - used on chords and blog posts too -->
+
+<script src="https://pianu.com/wp-content/themes/pianu/js/script.js"></script> 
+<!-- load form validation script -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+
+
+
+<!-- GLOBALS ---> 
+<script src="https://pianu.com/wp-content/themes/pianu/js/timeme.js"></script>
+<script src="https://pianu.com/wp-content/themes/pianu/js/WebMIDIAPI.js"></script>
+<script src="https://pianu.com/wp-content/themes/pianu/js/jquerycookie.js"></script>
+
+<!-- END OF ALL SCRIPTS --> 
+
+
+<div id="mm-payment-options-dialog"></div>
+<div id="mm-payment-confirmation-dialog"></div>
+<script>
+jQuery(document).ready(function(){
+    if(jQuery.isFunction("dialog")) {
+        jQuery("#mm-payment-options-dialog").dialog({autoOpen: false});
+        jQuery("#mm-payment-confirmation-dialog").dialog({autoOpen: false});
+    }
+});
+</script>
+        <!--facebook like and share js -->
+        <div id="fb-root" class=" fb_reset fb_reset"><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div><div style="position: absolute; top: -10000px; width: 0px; height: 0px;"><div></div></div></div>
+        <script>
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+    <script>
+window.addEventListener('sfsi_functions_loaded', function() {
+if (typeof sfsi_responsive_toggle == 'function') {
+    sfsi_responsive_toggle(0);
+    // console.log('sfsi_responsive_toggle');
+
+}
+})
+</script>
+<script>
+    window.addEventListener('sfsi_functions_loaded', function() {
+        if (typeof sfsi_plugin_version == 'function') {
+            sfsi_plugin_version(2.58);
+        }
+    });
+
+    function sfsi_processfurther(ref) {
+        var feed_id = 'MVArNDNMOFFJM1JNb1BDRmhLbkNWRGxHa2xoZmN6UWttK05pYVBUVWhkYkhzZnFLTjdrdjJBazZOV2VKeEZiRnZQZHlmSEQvRlhIYmtEUTlWVmZOY3dXbWNIWW1URU9LcmFDWkJ6dEZOSEJxcEVZOGptYlRLNHJnZFdtKzMwZTh8bWFjRnpDVzFoRC9RNlpkVHJ2SWRTU2doaFNNMjRiTk81V0JiU3VnNkpEYz0=';
+        var feedtype = 8;
+        var email = jQuery(ref).find('input[name="email"]').val();
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if ((email != "Enter your email") && (filter.test(email))) {
+            if (feedtype == "8") {
+                var url = "https://api.follow.it/subscription-form/" + feed_id + "/" + feedtype;
+                window.open(url, "popupwindow", "scrollbars=yes,width=1080,height=760");
+                return true;
+            }
+        } else {
+            alert("Please enter email address");
+            jQuery(ref).find('input[name="email"]').focus();
+            return false;
+        }
+    }
+</script>
+<style type="text/css" aria-selected="true">
+    .sfsi_subscribe_Popinner {
+        width: 100% !important;
+
+        height: auto !important;
+
+        padding: 18px 0px !important;
+
+        background-color: #ffffff !important;
+
+    }
+
+    .sfsi_subscribe_Popinner form {
+
+        margin: 0 20px !important;
+
+    }
+
+    .sfsi_subscribe_Popinner h5 {
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-weight: bold !important;
+
+        color: #000000 !important;
+
+        font-size: 16px !important;
+
+        text-align: center !important;
+
+        margin: 0 0 10px !important;
+
+        padding: 0 !important;
+
+    }
+
+    .sfsi_subscription_form_field {
+
+        margin: 5px 0 !important;
+
+        width: 100% !important;
+
+        display: inline-flex;
+
+        display: -webkit-inline-flex;
+
+    }
+
+    .sfsi_subscription_form_field input {
+
+        width: 100% !important;
+
+        padding: 10px 0px !important;
+
+    }
+
+    .sfsi_subscribe_Popinner input[type=email] {
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-style: normal !important;
+
+        color:  !important;
+
+        font-size: 14px !important;
+
+        text-align: center !important;
+
+    }
+
+    .sfsi_subscribe_Popinner input[type=email]::-webkit-input-placeholder {
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-style: normal !important;
+
+        color:  !important;
+
+        font-size: 14px !important;
+
+        text-align: center !important;
+
+    }
+
+    .sfsi_subscribe_Popinner input[type=email]:-moz-placeholder {
+        /* Firefox 18- */
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-style: normal !important;
+
+        color:  !important;
+
+        font-size: 14px !important;
+
+        text-align: center !important;
+
+    }
+
+    .sfsi_subscribe_Popinner input[type=email]::-moz-placeholder {
+        /* Firefox 19+ */
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-style: normal !important;
+
+        color:  !important;
+
+        font-size: 14px !important;
+
+        text-align: center !important;
+
+    }
+
+    .sfsi_subscribe_Popinner input[type=email]:-ms-input-placeholder {
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-style: normal !important;
+
+        color:  !important;
+
+        font-size: 14px !important;
+
+        text-align: center !important;
+
+    }
+
+    .sfsi_subscribe_Popinner input[type=submit] {
+
+        font-family: Helvetica,Arial,sans-serif !important;
+
+        font-weight: bold !important;
+
+        color: #000000 !important;
+
+        font-size: 16px !important;
+
+        text-align: center !important;
+
+        background-color: #dedede !important;
+
+    }
+
+    .sfsi_shortcode_container {
+        float: left;
+    }
+
+    .sfsi_shortcode_container .norm_row .sfsi_wDiv {
+        position: relative !important;
+    }
+
+    .sfsi_shortcode_container .sfsi_holders {
+        display: none;
+    }
+
+        </style>
+
+<script type="text/javascript" id="membermouse-socialLogin-js-extra">
+/* <![CDATA[ */
+var socialLoginVars = {"endpointUrl":"https:\/\/pianu.com\/wp-content\/plugins\/membermouse\/endpoints\/auth.php"};
+var socialLoginVars = {"endpointUrl":"https:\/\/pianu.com\/wp-content\/plugins\/membermouse\/endpoints\/auth.php"};
+var socialLoginVars = {"endpointUrl":"https:\/\/pianu.com\/wp-content\/plugins\/membermouse\/endpoints\/auth.php"};
+var socialLoginVars = {"endpointUrl":"https:\/\/pianu.com\/wp-content\/plugins\/membermouse\/endpoints\/auth.php"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/membermouse/resources/js/common/mm-social_login.js?ver=2.3.3" id="membermouse-socialLogin-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/membermouse/resources/js/common/jquery.blockUI.js?ver=2.3.3" id="membermouse-blockUI-js"></script>
+<script type="text/javascript" id="pt-cv-content-views-script-js-extra">
+/* <![CDATA[ */
+var PT_CV_PUBLIC = {"_prefix":"pt-cv-","page_to_show":"5","_nonce":"45cafc00b9","is_admin":"","is_mobile":"","ajaxurl":"https:\/\/pianu.com\/wp-admin\/admin-ajax.php","lang":"","loading_image_src":"data:image\/gif;base64,R0lGODlhDwAPALMPAMrKygwMDJOTkz09PZWVla+vr3p6euTk5M7OzuXl5TMzMwAAAJmZmWZmZszMzP\/\/\/yH\/C05FVFNDQVBFMi4wAwEAAAAh+QQFCgAPACwAAAAADwAPAAAEQvDJaZaZOIcV8iQK8VRX4iTYoAwZ4iCYoAjZ4RxejhVNoT+mRGP4cyF4Pp0N98sBGIBMEMOotl6YZ3S61Bmbkm4mAgAh+QQFCgAPACwAAAAADQANAAAENPDJSRSZeA418itN8QiK8BiLITVsFiyBBIoYqnoewAD4xPw9iY4XLGYSjkQR4UAUD45DLwIAIfkEBQoADwAsAAAAAA8ACQAABC\/wyVlamTi3nSdgwFNdhEJgTJoNyoB9ISYoQmdjiZPcj7EYCAeCF1gEDo4Dz2eIAAAh+QQFCgAPACwCAAAADQANAAAEM\/DJBxiYeLKdX3IJZT1FU0iIg2RNKx3OkZVnZ98ToRD4MyiDnkAh6BkNC0MvsAj0kMpHBAAh+QQFCgAPACwGAAAACQAPAAAEMDC59KpFDll73HkAA2wVY5KgiK5b0RRoI6MuzG6EQqCDMlSGheEhUAgqgUUAFRySIgAh+QQFCgAPACwCAAIADQANAAAEM\/DJKZNLND\/kkKaHc3xk+QAMYDKsiaqmZCxGVjSFFCxB1vwy2oOgIDxuucxAMTAJFAJNBAAh+QQFCgAPACwAAAYADwAJAAAEMNAs86q1yaWwwv2Ig0jUZx3OYa4XoRAfwADXoAwfo1+CIjyFRuEho60aSNYlOPxEAAAh+QQFCgAPACwAAAIADQANAAAENPA9s4y8+IUVcqaWJ4qEQozSoAzoIyhCK2NFU2SJk0hNnyEOhKR2AzAAj4Pj4GE4W0bkJQIAOw==","is_mobile_tablet":"","sf_no_post_found":"No posts found."};
+var PT_CV_PAGINATION = {"first":"\u00ab","prev":"\u2039","next":"\u203a","last":"\u00bb","goto_first":"Go to first page","goto_prev":"Go to previous page","goto_next":"Go to next page","goto_last":"Go to last page","current_page":"Current page is","goto_page":"Go to page"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/content-views-query-and-display-post-page/public/assets/js/cv.js?ver=2.3.3" id="pt-cv-content-views-script-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/pt-content-views-pro/public/assets/js/cvpro.min.js?ver=5.7.1" id="pt-cv-public-pro-script-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/responsive-accordion-and-collapse/js/bootstrap.js?ver=5.5" id="wpsm_ac_bootstrap-js-front-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/responsive-accordion-and-collapse/js/accordion.js?ver=5.5" id="call_ac-js-front-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/modernizr.custom.min.js?ver=5.5" id="SFSIjqueryModernizr-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/jquery.shuffle.min.js?ver=5.5" id="SFSIjqueryShuffle-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/ultimate-social-media-icons/js/shuffle/random-shuffle-min.js?ver=5.5" id="SFSIjqueryrandom-shuffle-js"></script>
+<script type="text/javascript" id="SFSICustomJs-js-extra">
+/* <![CDATA[ */
+var sfsi_icon_ajax_object = {"ajax_url":"https:\/\/pianu.com\/wp-admin\/admin-ajax.php"};
+var sfsi_icon_ajax_object = {"ajax_url":"https:\/\/pianu.com\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/pianu.com\/wp-content\/plugins\/ultimate-social-media-icons\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/ultimate-social-media-icons/js/custom.js?ver=5.5" id="SFSICustomJs-js"></script>
+<script type="text/javascript" src="https://pianu.com/wp-content/plugins/kingcomposer/assets/frontend/js/kingcomposer.min.js?ver=2.9.5" id="kc-front-scripts-js"></script>
+<script type="text/javascript">(function (undefined) {var _targetWindow ="prefer-popup";
+window.NSLPopup = function (url, title, w, h) {
+var userAgent = navigator.userAgent,
+    mobile = function () {
+        return /\b(iPhone|iP[ao]d)/.test(userAgent) ||
+            /\b(iP[ao]d)/.test(userAgent) ||
+            /Android/i.test(userAgent) ||
+            /Mobile/i.test(userAgent);
+    },
+    screenX = window.screenX !== undefined ? window.screenX : window.screenLeft,
+    screenY = window.screenY !== undefined ? window.screenY : window.screenTop,
+    outerWidth = window.outerWidth !== undefined ? window.outerWidth : document.documentElement.clientWidth,
+    outerHeight = window.outerHeight !== undefined ? window.outerHeight : document.documentElement.clientHeight - 22,
+    targetWidth = mobile() ? null : w,
+    targetHeight = mobile() ? null : h,
+    V = screenX < 0 ? window.screen.width + screenX : screenX,
+    left = parseInt(V + (outerWidth - targetWidth) / 2, 10),
+    right = parseInt(screenY + (outerHeight - targetHeight) / 2.5, 10),
+    features = [];
+if (targetWidth !== null) {
+    features.push('width=' + targetWidth);
+}
+if (targetHeight !== null) {
+    features.push('height=' + targetHeight);
+}
+features.push('left=' + left);
+features.push('top=' + right);
+features.push('scrollbars=1');
+
+var newWindow = window.open(url, title, features.join(','));
+
+if (window.focus) {
+    newWindow.focus();
+}
+
+return newWindow;
+};
+
+var isWebView = null;
+
+function checkWebView() {
+if (isWebView === null) {
+    function _detectOS(ua) {
+        if (/Android/.test(ua)) {
+            return "Android";
+        } else if (/iPhone|iPad|iPod/.test(ua)) {
+            return "iOS";
+        } else if (/Windows/.test(ua)) {
+            return "Windows";
+        } else if (/Mac OS X/.test(ua)) {
+            return "Mac";
+        } else if (/CrOS/.test(ua)) {
+            return "Chrome OS";
+        } else if (/Firefox/.test(ua)) {
+            return "Firefox OS";
+        }
+        return "";
+    }
+
+    function _detectBrowser(ua) {
+        var android = /Android/.test(ua);
+
+        if (/CriOS/.test(ua)) {
+            return "Chrome for iOS";
+        } else if (/Edge/.test(ua)) {
+            return "Edge";
+        } else if (android && /Silk\//.test(ua)) {
+            return "Silk";
+        } else if (/Chrome/.test(ua)) {
+            return "Chrome";
+        } else if (/Firefox/.test(ua)) {
+            return "Firefox";
+        } else if (android) {
+            return "AOSP";
+        } else if (/MSIE|Trident/.test(ua)) {
+            return "IE";
+        } else if (/Safari\//.test(ua)) {
+            return "Safari";
+        } else if (/AppleWebKit/.test(ua)) {
+            return "WebKit";
+        }
+        return "";
+    }
+
+    function _detectBrowserVersion(ua, browser) {
+        if (browser === "Chrome for iOS") {
+            return _getVersion(ua, "CriOS/");
+        } else if (browser === "Edge") {
+            return _getVersion(ua, "Edge/");
+        } else if (browser === "Chrome") {
+            return _getVersion(ua, "Chrome/");
+        } else if (browser === "Firefox") {
+            return _getVersion(ua, "Firefox/");
+        } else if (browser === "Silk") {
+            return _getVersion(ua, "Silk/");
+        } else if (browser === "AOSP") {
+            return _getVersion(ua, "Version/");
+        } else if (browser === "IE") {
+            return /IEMobile/.test(ua) ? _getVersion(ua, "IEMobile/") :
+                /MSIE/.test(ua) ? _getVersion(ua, "MSIE ")
+                    :
+                    _getVersion(ua, "rv:");
+        } else if (browser === "Safari") {
+            return _getVersion(ua, "Version/");
+        } else if (browser === "WebKit") {
+            return _getVersion(ua, "WebKit/");
+        }
+        return "0.0.0";
+    }
+
+    function _getVersion(ua, token) {
+        try {
+            return _normalizeSemverString(ua.split(token)[1].trim().split(/[^\w\.]/)[0]);
+        } catch (o_O) {
+        }
+        return "0.0.0";
+    }
+
+    function _normalizeSemverString(version) {
+        var ary = version.split(/[\._]/);
+        return (parseInt(ary[0], 10) || 0) + "." +
+            (parseInt(ary[1], 10) || 0) + "." +
+            (parseInt(ary[2], 10) || 0);
+    }
+
+    function _isWebView(ua, os, browser, version, options) {
+        switch (os + browser) {
+            case "iOSSafari":
+                return false;
+            case "iOSWebKit":
+                return _isWebView_iOS(options);
+            case "AndroidAOSP":
+                return false;
+            case "AndroidChrome":
+                return parseFloat(version) >= 42 ? /; wv/.test(ua) : /\d{2}\.0\.0/.test(version) ? true : _isWebView_Android(options);
+        }
+        return false;
+    }
+
+    function _isWebView_iOS(options) {
+        var document = (window["document"] || {});
+
+        if ("WEB_VIEW" in options) {
+            return options["WEB_VIEW"];
+        }
+        return !("fullscreenEnabled" in document || "webkitFullscreenEnabled" in document || false);
+    }
+
+    function _isWebView_Android(options) {
+        if ("WEB_VIEW" in options) {
+            return options["WEB_VIEW"];
+        }
+        return !("requestFileSystem" in window || "webkitRequestFileSystem" in window || false);
+    }
+
+    var options = {};
+    var nav = window.navigator || {};
+    var ua = nav.userAgent || "";
+    var os = _detectOS(ua);
+    var browser = _detectBrowser(ua);
+    var browserVersion = _detectBrowserVersion(ua, browser);
+
+    isWebView = _isWebView(ua, os, browser, browserVersion, options);
+}
+
+return isWebView;
+}
+
+window._nsl.push(function ($) {
+
+window.nslRedirect = function (url) {
+    $('<div style="position:fixed;z-index:1000000;left:0;top:0;width:100%;height:100%;"></div>').appendTo('body');
+    window.location = url;
+};
+
+var targetWindow = _targetWindow || 'prefer-popup',
+    lastPopup = false;
+
+$(document.body).on('click', 'a[data-plugin="nsl"][data-action="connect"],a[data-plugin="nsl"][data-action="link"]', function (e) {
+    if (lastPopup && !lastPopup.closed) {
+        e.preventDefault();
+        lastPopup.focus();
+    } else {
+
+        var $target = $(this),
+            href = $target.attr('href'),
+            success = false;
+        if (href.indexOf('?') !== -1) {
+            href += '&';
+        } else {
+            href += '?';
+        }
+        var redirectTo = $target.data('redirect');
+        if (redirectTo === 'current') {
+            href += 'redirect=' + encodeURIComponent(window.location.href) + '&';
+        } else if (redirectTo && redirectTo !== '') {
+            href += 'redirect=' + encodeURIComponent(redirectTo) + '&';
+        }
+
+        if (targetWindow !== 'prefer-same-window' && checkWebView()) {
+            targetWindow = 'prefer-same-window';
+        }
+
+        if (targetWindow === 'prefer-popup') {
+
+            lastPopup = NSLPopup(href + 'display=popup', 'nsl-social-connect', $target.data('popupwidth'), $target.data('popupheight'));
+            if (lastPopup) {
+                success = true;
+                e.preventDefault();
+            }
+        } else if (targetWindow === 'prefer-new-tab') {
+            var newTab = window.open(href + 'display=popup', '_blank');
+            if (newTab) {
+                if (window.focus) {
+                    newTab.focus();
+                }
+                success = true;
+                e.preventDefault();
+            }
+        }
+
+        if (!success) {
+            window.location = href;
+            e.preventDefault();
+        }
+    }
+});
+
+var googleLoginButton = $('a[data-plugin="nsl"][data-provider="google"]');
+if (googleLoginButton.length && checkWebView()) {
+    googleLoginButton.remove();
+}
+});})();</script>
+
+
+
+<!-- This website is like a Rocket, isn't it? Performance optimized by WP Rocket. Learn more: https://wp-rocket.me - Debug: cached@1597636358 --><div id="cvpboxOverlay" style="display: none;"></div><div id="cvpcolorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cvpboxWrapper"><div><div id="cvpboxTopLeft" style="float: left;"></div><div id="cvpboxTopCenter" style="float: left;"></div><div id="cvpboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cvpboxMiddleLeft" style="float: left;"></div><div id="cvpboxContent" style="float: left;"><div id="cvpboxTitle" style="float: left;"></div><div id="cvpboxCurrent" style="float: left;"></div><button type="button" id="cvpboxPrevious"></button><button type="button" id="cvpboxNext"></button><button id="cvpboxSlideshow"></button><div id="cvpboxLoadingOverlay" style="float: left;"></div><div id="cvpboxLoadingGraphic" style="float: left;"></div></div><div id="cvpboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cvpboxBottomLeft" style="float: left;"></div><div id="cvpboxBottomCenter" style="float: left;"></div><div id="cvpboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div><!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script><div id="cvpboxOverlay" style="display: none;"></div><div id="cvpcolorbox" class="" role="dialog" tabindex="-1" style="display: none;"><div id="cvpboxWrapper"><div><div id="cvpboxTopLeft" style="float: left;"></div><div id="cvpboxTopCenter" style="float: left;"></div><div id="cvpboxTopRight" style="float: left;"></div></div><div style="clear: left;"><div id="cvpboxMiddleLeft" style="float: left;"></div><div id="cvpboxContent" style="float: left;"><div id="cvpboxTitle" style="float: left;"></div><div id="cvpboxCurrent" style="float: left;"></div><button type="button" id="cvpboxPrevious"></button><button type="button" id="cvpboxNext"></button><button id="cvpboxSlideshow"></button><div id="cvpboxLoadingOverlay" style="float: left;"></div><div id="cvpboxLoadingGraphic" style="float: left;"></div></div><div id="cvpboxMiddleRight" style="float: left;"></div></div><div style="clear: left;"><div id="cvpboxBottomLeft" style="float: left;"></div><div id="cvpboxBottomCenter" style="float: left;"></div><div id="cvpboxBottomRight" style="float: left;"></div></div></div><div style="position: absolute; width: 9999px; visibility: hidden; display: none; max-width: none;"></div></div></body></html>
